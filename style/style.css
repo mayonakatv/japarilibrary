@@ -1,0 +1,235 @@
+@charset "utf-8";
+html,
+body {
+  color: #333;
+  overflow-x: hidden;
+}
+@media only screen and (min-width: 993px){
+  .container{
+    width:80% !important;
+  }
+  .navbar-fixed nav {
+    width: 80vw !important;
+  }
+}
+@media only screen and (min-width: 601px){
+  .container{
+    width:85% !important;
+  }
+  .navbar-fixed nav {
+    width: 85vw !important;
+  }
+}
+
+.Bland-logo {
+  position: relative;
+  top: .24em;
+  left: .24em;
+}
+
+h1 {
+  margin: .64em 0;
+  font-size: 1.75em;
+  vertical-align: middle;
+}
+h4 {
+  padding-left: .32em;
+  border-left: 8px solid rgb(0, 162, 255);
+  border-bottom: 2px solid rgb(0, 162, 255);
+}
+h4 span {
+  font-size: .5em;
+}
+section {
+  width: 100%;
+}
+  section h5 {
+    margin: .32em 0;
+    padding: 0 0 0 .32em;
+    border:1px solid rgb(255, 95, 188);
+    border-width: 0 0 1px 3px;
+  }
+h5.doujin {
+  padding:1em 1em 1em 3em;
+  background-image: url(https://kemono-matsuri.japarilibrary.com/img/sysimg/kemodoujin.png);
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: .5em 50%;
+  box-sizing: border-box;
+}
+
+.navbar-fixed nav {
+  width: 90vw;
+}
+
+ol.countlist {
+  -webkit-padding-start: .5em;
+  counter-reset: item;
+}
+
+.countlist.root-ol>li {
+  margin-top: .32em;
+}
+
+.countlist.root-ol>li:first-line {
+  font-weight: bold;
+}
+
+ol.countlist li {
+  display: block;
+}
+
+ol.countlist li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+.dot-list li {
+  display: inherit;
+  list-style-type: circle !important;
+}
+
+.dot-list li:before {
+  margin-left: 1em;
+  content: "・";
+  counter-increment: unset;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.no-vertical-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.div-table img {
+  max-width: 75%;
+}
+
+.textArea {
+  display: none;
+}
+
+.kenten {
+  text-emphasis: dot #000;
+  -webkit-text-emphasis: dot #000;
+}
+
+figure {
+  width: 360px;
+  max-width: 90vw;
+  margin: .5em 0;
+  position: relative;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+figure figcaption {
+  width: 100%;
+  margin: 0;
+  padding: .2em;
+  background-color: rgb(255, 219, 153);
+}
+
+figure a {
+  float: right;
+}
+
+.figure-explain {
+  overflow: hidden;
+  border-bottom: 1px dotted #666;
+}
+
+.figure-explain figure {
+  margin-right: 1em;
+  float: left;
+}
+
+.pagetop {
+  display: none;
+  padding: 1em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(40, 140, 255);
+  border-radius: 2em;
+}
+
+.pagetop a {
+  color: #fff;
+}
+
+.flex-container {
+  margin-bottom: 1em;
+  padding: .5em 1em;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content:space-between;
+  background-color: rgb(73, 73, 73);
+}
+.flex-container::after{
+  content:"";
+  display: block;
+  width:30%;
+}
+  .flex-container .flex-item {
+    margin: .24em;
+    align-self: flex-end;
+    flex-basis: 30%;
+  }
+  .flex-container .flex-item figure {
+    width: 100%;
+  }
+
+  header nav ul {
+    margin: 0 1em;
+  }
+.dropdown-content {
+  width: 10em !important;
+  background-color: #ee6e73;
+
+  -moz-box-shadow:0px 0px 4px 2px #ee6e72a6;
+  -webkit-box-shadow:0px 0px 4px 2px #ee6e72a6;
+  box-shadow:0px 0px 4px 2px #ee6e72a6;
+}
+  .dropdown-content li a {
+    color: #fff;
+  }
+
+.faq-container h6 {
+  margin: 0;
+}
+.faq-container p {
+  margin: .5em 0 1em;
+  padding-left: 1em;
+}
+
+.new {
+  background:orange;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: .5em;
+  padding: .12em .32em;
+}
+
+.sidenav {
+  width: 170px;
+}
+
+/*遅延読み込みの表示*/
+.lazyload{
+  opacity: 0;
+ }
+ .lazyloaded{
+   opacity: 1;
+   transition: all 0.5s;
+ }
