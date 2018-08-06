@@ -11,15 +11,15 @@ var carousel = new Vue({
   el: '#carousel',
   data: {
     carouselGroceryList: [
-      { id: 0, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c1.png' },
-      { id: 1, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c2.png' },
-      { id: 2, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c3.png' },
-      { id: 3, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c4.png' },
-      { id: 4, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c5.png' },
-      { id: 5, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c6.png' },
-      { id: 6, src: 'https://kemono-matsuri.japarilibrary.com/img/carousel/c7.png' },
+      { id: 0, src: 'img/carousel/c1.png' },
+      { id: 1, src: 'img/carousel/c2.png' },
+      { id: 2, src: 'img/carousel/c3.png' },
+      { id: 3, src: 'img/carousel/c4.png' },
+      { id: 4, src: 'img/carousel/c5.png' },
+      { id: 5, src: 'img/carousel/c6.png' },
+      { id: 6, src: 'img/carousel/c7.png' },
       { id: 7, src: 'https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg' },
-      { id: 8, src: 'glass/comparison.png' }
+      { id: 8, src: 'img/glass/comparison.png' }
     ]
   }
 })
