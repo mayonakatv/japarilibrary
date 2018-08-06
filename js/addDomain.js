@@ -1,11 +1,10 @@
-var domain = 'https://kemono-matsuri.japarilibrary.com/';
+var domain = 'https://kemono-matsuri.japarilibrary.com/'
 
-$(function () {
-  var imgSrc = $('img').attr('src')
-  var imgSrc4 = imgSrc.slice(0, 4)
-  if (imgSrc4 === 'img/') {
-    $('img').attr('src', function () {
+$('img:not([rel=external])').each(function () {
+  if ($(this).attr('src').slice(0, 4) === 'img/' && $(this).attr('src').slice(0, 4)) {
+    $(this).attr('src', function () {
       $(this).attr('src', domain + $(this).attr('src'))
     })
+
   }
 })
