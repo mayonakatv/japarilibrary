@@ -74,33 +74,39 @@ h5.doujin {
   width: 70vw;
 }
 
-/*nav-tabs*/
-/*https://www.webdlab.com/labs/dropdownmenu-2/*/
-.tabs {
-  display: flex;
-  background-color: #ee6e73 !important;
-  overflow: visible !important;
+/* nav-tabs
+** https://www.webdlab.com/labs/dropdownmenu-2/
+** https://qiita.com/mimoe/items/91cfaf48aae54b1fbf67
+*/
+#menu {
+  width:100%;
+  font-size: .8em;
 }
-.tabs li a {
-  display: block;
-  text-align: center;
-  font-size: 14px;
-  line-height: 2.8;
-  text-decoration: none;
-  box-sizing: border-box;
+#menu li {
+  position: relative;
+  float: left;
+  font-weight: bold;
 }
-.tabs li ul {
-  width: 150px;
+#menu li ul {
   display: none;
   position: absolute;
-  overflow: visible;
+  top: 64px;
+  left: -15px;
+  width: 150px;
+  background-color: #ee6e73;
+  box-sizing: border-box;
 }
-.tabs li ul li {
-  width: 100%;
-  background-color: #ee6e73 !important;
-  overflow: visible !important;
+#menu li ul li {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  border: none;
 }
-/*[end]nav-tabs*/
+#menu li ul li a {
+  display: inline-block;
+  width: 150px;
+}
+/*ここまで*/
 
 ol.countlist {
   -webkit-padding-start: .5em;

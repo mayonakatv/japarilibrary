@@ -37,7 +37,7 @@ $(function () {
     var speed = 400;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
-    var headerHeight = 120; //固定ヘッダーの高さ
+    var headerHeight = 140; //固定ヘッダーの高さ
     var position = target.offset().top - headerHeight; //ターゲットの座標からヘッダの高さ分引く
     $('body,html').animate({ scrollTop: position }, speed, 'swing');
     return false;
@@ -97,23 +97,10 @@ $(document).ready(function () {
   })*/
 });
 
-/*$(function () {
-  var tabs = $('.tabs');
-  $('li', tabs).click(function (e) {
-    $('ul', this).stop().slideToggle('normal')
-    $(this).children('li').on('click tap', function () {
-      $(this).parent('ul').slideToggle('normal')
-    })
-  })
-});*/
-
 $(function () {
-  var tabs = $('.tabs');
-  $('li', tabs)
-    .mouseover(function (e) {
-      $('ul', this).stop().slideDown('fast');
-    })
-    .mouseout(function (e) {
-      $('ul', this).stop().slideUp('fast');
-    });
-});
+  $("#menu li").hover(function () {
+    $(this).children('ul').slideDown('fast');
+  }, function () {
+    $(this).children('ul').slideUp('fast');
+  })
+})
