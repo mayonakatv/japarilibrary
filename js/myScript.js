@@ -30,13 +30,15 @@ $(function () {
 });
 
 //https://qiita.com/Takuya_Kouyama/items/b815eb5e1f85d819b4d8
+//http://cgsc.info/programming/20151222_fixed-header_scroll
+// #にダブルクォーテーションが必要
 $(function () {
-  // #にダブルクォーテーションが必要
   $('a[href^="#"]').click(function () {
     var speed = 400;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top;
+    var headerHeight = 120; //固定ヘッダーの高さ
+    var position = target.offset().top - headerHeight; //ターゲットの座標からヘッダの高さ分引く
     $('body,html').animate({ scrollTop: position }, speed, 'swing');
     return false;
   });
@@ -93,4 +95,25 @@ $(document).ready(function () {
   /*$('.sidenav li a').on('click tap', function () {
     $('.sidenav').sidenav().slideToggle()
   })*/
+});
+
+/*$(function () {
+  var tabs = $('.tabs');
+  $('li', tabs).click(function (e) {
+    $('ul', this).stop().slideToggle('normal')
+    $(this).children('li').on('click tap', function () {
+      $(this).parent('ul').slideToggle('normal')
+    })
+  })
+});*/
+
+$(function () {
+  var tabs = $('.tabs');
+  $('li', tabs)
+    .mouseover(function (e) {
+      $('ul', this).stop().slideDown('fast');
+    })
+    .mouseout(function (e) {
+      $('ul', this).stop().slideUp('fast');
+    });
 });

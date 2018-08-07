@@ -36,7 +36,15 @@
   <script type="text/javascript" src="js/myScript.js"></script>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script type="text/javascript" src="js/ga.js" async></script>
-  <script type="text/javascript" src="https://japarilibrary.com/gtag.js" async></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123516140-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-123516140-1');
+  </script>
 </head>
 
 <body id="top" class="yellow lighten-5">
@@ -66,7 +74,7 @@
         <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
       </ul>
       <div class="navbar-fixed">
-        <nav>
+        <nav class="nav-extended">
           <div class="nav-wrapper">
             <a href="/" class="brand-logo">
               <img src="http://mayonaka.tv/favicon.ico" alt="Bland-logo" />
@@ -85,6 +93,129 @@
               <i class="fas fa-bars"></i>
             </a>
           </div>
+          <div class="nav-content hide-on-med-and-down">
+            <ul class="tabs tabs-transparent">
+              <li class="tab">
+                <a href="#sect-officialNews">News</a>
+              </li>
+              <li class="tab">
+                <a href="#sect-about">About</a>
+              </li>
+              <li class="tab">
+                <a href="#sect-map">Map</a>
+              </li>
+              <li class="tab">
+                <a href="#sect-faq">Faq</a>
+              </li>
+              <li class="tab">
+                <a href="#sect-first">Beginner's Guide</a>
+              </li>
+              <li class="tab">
+                <a>Fun</a>
+                <ul>
+                  <li>
+                    <a href="#sect-present">Present</a>
+                  </li>
+                  <li>
+                    <a href="#sect-tokuten">Tokuten</a>
+                  </li>
+                  <li>
+                    <a href="#sect-19">Enchou</a>
+                  </li>
+                  <li>
+                    <a href="#sect-canceled">Canceled</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="tab">
+                <a>Foods/Goods</a>
+                <ul>
+                  <li>
+                    <a href="#sect-foods">Foods</a>
+                  </li>
+                  <li>
+                    <a href="#sect-coaster">Coaster</a>
+                  </li>
+                  <li>
+                    <a href="#sect-kobachi">Kobachi</a>
+                  </li>
+                  <li>
+                    <a href="#sect-shateki">Shateki</a>
+                  </li>
+                  <li>
+                    <a href="#sect-goods">Goods</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="tab">
+                <a href="#sect-facility">Facility</a>
+                <ul>
+                  <li>
+                    <a href="#sect-games">Gacha &amp; Clane</a>
+                  </li>
+                  <li>
+                    <a href="#sect-japaman">Japaman</a>
+                  </li>
+                  <li>
+                    <a href="#sect-ornaments">Ornaments</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="tab">
+                <a href="#sect-siteinfo">Siteinfo</a>
+                <ul>
+                  <li>
+                    <a href="#sect-crawling">Crawling</a>
+                  </li>
+                  <li>
+                    <a href="#sect-reliability">Reliability</a>
+                  </li>
+                  <li>
+                    <a href="#sect-research">Research</a>
+                  </li>
+                  <li>
+                    <a href="#sect-reason">Reason</a>
+                  </li>
+                  <li>
+                    <a href="#sect-specialthanks">sp-thanks</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-content hide-on-med-and-up">
+            <ul class="tabs tabs-transparent">
+              <li class="tab">
+                <a href="#sect-about">About</a>
+              </li>
+              <li class="tab">
+                <a href="#sect-map">Map</a>
+              </li>
+              <li class="tab">
+                <a href="#sect-first">Beginner's Guide</a>
+              </li>
+              <li class="tab">
+                <a>Foods/Goods</a>
+                <ul>
+                  <li>
+                    <a href="#sect-foods">Foods</a>
+                  </li>
+                  <li>
+                    <a href="#sect-coaster">Coaster</a>
+                  </li>
+                  <li>
+                    <a href="#sect-kobachi">Kobachi</a>
+                  </li>
+                  <li>
+                    <a href="#sect-shateki">Shateki</a>
+                  </li>
+                  <li>
+                    <a href="#sect-goods">Goods</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -95,7 +226,7 @@
       <carousel-item v-for="item in carouselGroceryList" v-bind:todo="item" v-bind:target="carousel"></carousel-item>
     </div>
 
-    <div class="card yellow darken-2">
+    <div id="sect-officialNews" class="card yellow darken-2">
       <div class="card-content white-text">
         <span class="card-title">
           <a class="btn-floating orange pulse" style="margin: 0 1em 0 0;">
@@ -124,9 +255,9 @@
     <div class="card">
       <p class="center-align">当ページはPC環境での閲覧を想定しています。スマートフォン、iPhone等の対応はしばらくお待ちください。</p>
     </div>
+
     <div class="addLazyloadCss">
-      <a id="sect-whats"></a>
-      <section>
+      <section id="sect-about">
         <h4>けもフレがーでんとは？</h4>
         <p class="red white-text center-align">編集中</p>
         <div class="center-align quote-text">
@@ -140,8 +271,7 @@
         </div>
       </section>
 
-      <a id="sect-map"></a>
-      <section>
+      <section id="sect-map">
         <h4>場所と行き方</h4>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.887714421604!2d139.71097491524054!3d35.72897993495928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d687600e97d%3A0xc0be4490db0cb6e6!2z44GK56Wt44Gg44KI77yB44GR44KC44Gu44OV44Os44Oz44K644GM44O844Gn44KT!5e0!3m2!1sja!2sjp!4v1533069980471"
           width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -250,8 +380,7 @@
         </p>
       </section>
 
-      <a id="sect-faq"></a>
-      <section>
+      <section id="sect-faq">
         <h4>よくありそうな質問 / FAQ</h4>
         <div class="faq-container">
           <h5 class="red-text bold center-align" style="margin: .5em;padding: .5em;border:1px dotted red;">ここを見る前に
@@ -316,8 +445,7 @@
         </div>
       </section>
 
-      <a id="sect-first"></a>
-      <section>
+      <section id="sect-first">
         <h4>初めての方へ / 楽しみ方のご提案</h4>
         <h5>どう転んでも楽しめる方プラン</h5>
         <p class="red-text bold center-align">5,000円握りしめて行けばOK！入場料とジョッキ代だよ！フードチケット1,000円ついてるしへーきへーき！
@@ -538,8 +666,7 @@
         </ul>
       </section>
 
-      <a id="sect-numberedTickets"></a>
-      <section>
+      <section id="sect-numberedTickets">
         <h4>当日整理券および待機列</h4>
         <h5>整理券配布</h5>
         <ul class="dot-list">
@@ -576,132 +703,135 @@
         </ul>
       </section>
 
-      <a id="sect-100"></a>
-      <h4>けもフレがーでんを100倍楽しむための補足情報</h4>
-      <section>
-        <a id="sect-present"></a>
-        <h5>入館時に配布しているもの</h5>
-        <div class="flex-container">
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/stampCard.png" class="responsive-img" alt="スタンプカード" />
-              <figcaption>スタンプカード(名刺型)
-                <a href="img/other/stampCard.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
+      <section id="sect-100">
+        <h4>けもフレがーでんを100倍楽しむための補足情報</h4>
+        <section id="sect-present">
+          <h5>入館時に配布しているもの</h5>
+          <div class="flex-container">
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/stampCard.png" class="responsive-img" alt="スタンプカード" />
+                <figcaption>スタンプカード(名刺型)
+                  <a href="img/other/stampCard.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/stampRally.png" class="responsive-img" alt="スタンプラリーシート" />
+                <figcaption>スタンプラリーシート(A4)
+                  <a href="img/other/stampRally.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg" class="responsive-img" alt="小鉢" />
+                <figcaption>小鉢(お通し付き, 種類があります)
+                  <a href="https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/listband.png" class="responsive-img" alt="リストバンド" />
+                <figcaption>リストバンド(時間やアルコールによって色が違います)
+                  <a href="img/other/listband.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/food100.png" class="responsive-img" alt="100円フードチケット" />
+                <figcaption>フードチケット100円*5枚
+                  <a href="img/other/food100.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/food500.png" class="responsive-img" alt="500円フードチケット" />
+                <figcaption>フードチケット500円*1枚
+                  <a href="img/other/food500.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/rentaljug.png" class="responsive-img" alt="貸しジョッキ" />
+                <figcaption>貸しジョッキ（買わない方のみ）
+                  <a href="img/other/rentaljug.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
           </div>
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/stampRally.png" class="responsive-img" alt="スタンプラリーシート" />
-              <figcaption>スタンプラリーシート(A4)
-                <a href="img/other/stampRally.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg" class="responsive-img" alt="小鉢" />
-              <figcaption>小鉢(お通し付き, 種類があります)
-                <a href="https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/listband.png" class="responsive-img" alt="リストバンド" />
-              <figcaption>リストバンド(時間やアルコールによって色が違います)
-                <a href="img/other/listband.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/food100.png" class="responsive-img" alt="100円フードチケット" />
-              <figcaption>フードチケット100円*5枚
-                <a href="img/other/food100.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/food500.png" class="responsive-img" alt="500円フードチケット" />
-              <figcaption>フードチケット500円*1枚
-                <a href="img/other/food500.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/rentaljug.png" class="responsive-img" alt="貸しジョッキ" />
-              <figcaption>貸しジョッキ（買わない方のみ）
-                <a href="img/other/rentaljug.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
+        </section>
 
-        <a id="sect-tokuten"></a>
-        <h5>現在の任意特典</h5>
-        <div class="flex-container">
-          <div class="flex-item">
-            <figure>
-              <img src="img/other/gardenSeal.png" class="responsive-img" alt="がーでんシール" />
-              <figcaption>3つの冷や水！のチラシでニコニコ超会議2018で配布していたがーでんシール
-                <a href="img/other/gardenSeal.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
+        <section id="sect-tokuten">
+          <h5>現在の任意特典</h5>
+          <div class="flex-container">
+            <div class="flex-item">
+              <figure>
+                <img src="img/other/gardenSeal.png" class="responsive-img" alt="がーでんシール" />
+                <figcaption>3つの冷や水！のチラシでニコニコ超会議2018で配布していたがーでんシール
+                  <a href="img/other/gardenSeal.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="img/coaster/habu.png" class="responsive-img" alt="特典コースター" />
+                <figcaption>お花見がーでんの半券でコラボドリンクでももらえるコースター ※主筆非推奨
+                  <a href="img/coaster/habu.png" title="100%" rel="nofollow">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="" class="responsive-img" alt="スタンプラリー" />
+                <figcaption>スタンプラリーコンプで粗品？</figcaption>
+              </figure>
+            </div>
+            <div class="flex-item">
+              <figure>
+                <img src="" class="responsive-img" alt="ステッカー" />
+                <figcaption>スタンプカード：コラボドリンクやステッカー（
+                  <a href="#sect-stampcard" title="スタンプカード" rel="nofollow">◉ここをみるのだ！</a>
+                  ）</figcaption>
+              </figure>
+            </div>
           </div>
-          <div class="flex-item">
-            <figure>
-              <img src="img/coaster/habu.png" class="responsive-img" alt="特典コースター" />
-              <figcaption>お花見がーでんの半券でコラボドリンクでももらえるコースター ※主筆非推奨
-                <a href="img/coaster/habu.png" title="100%" rel="nofollow">
-                  <i class="fas fa-expand-arrows-alt"></i>
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="" class="responsive-img" alt="スタンプラリー" />
-              <figcaption>スタンプラリーコンプで粗品？</figcaption>
-            </figure>
-          </div>
-          <div class="flex-item">
-            <figure>
-              <img src="" class="responsive-img" alt="ステッカー" />
-              <figcaption>スタンプカード：コラボドリンクやステッカー（
-                <a href="#sect-stampcard" title="スタンプカード" rel="nofollow">◉ここをみるのだ！</a>
-                ）</figcaption>
-            </figure>
-          </div>
-        </div>
+        </section>
 
-        <h5>19時回延長サービス</h5>
-        <p>受付開始は、運用を見ていると以下のようです（全て19時回の方を対象としています）</p>
-        <ul class="dot-list">
-          <li>「あと10分でラストオーダー」アナウンスあたりでは「21時から延長受け付けます」の案内が入り</li>
-          <li>「20時半のラストオーダー」アナウンス後に「延長受け付けます」の案内が入り</li>
-          <li>「あと10分で退場願います」アナウンスのときに「延長受け付けてます」の案内が入る</li>
-        </ul>
+        <sectio id="sect-19">
+          <h5>19時回延長サービス</h5>
+          <p>受付開始は、運用を見ていると以下のようです（全て19時回の方を対象としています）</p>
+          <ul class="dot-list">
+            <li>「あと10分でラストオーダー」アナウンスあたりでは「21時から延長受け付けます」の案内が入り</li>
+            <li>「20時半のラストオーダー」アナウンス後に「延長受け付けます」の案内が入り</li>
+            <li>「あと10分で退場願います」アナウンスのときに「延長受け付けてます」の案内が入る</li>
+          </ul>
+      </section>
 
-        <a id="sect-canceled"></a>
+      <section id="sect-canceled">
         <h5>開催中止時の返金</h5>
         <p>このようなメールが楽天チケット登録メール宛に届きます。返金手続きを行うと「チケット代金」が返金されます。手数料は返金されません。</p>
         <figure>
@@ -728,8 +858,9 @@
             </p>
           </div>
         </div>
+      </section>
 
-        <a id="sect-stampcard"></a>
+      <section id="sect-stampcard">
         <h5>スタンプカード</h5>
         <p>スタンプカードは初回参加者に配布、1回目の分はすでに押されているので押してもらう必要はないです。
           <br />2回目以降、入場時にスタンプを押してもらう。
@@ -741,253 +872,250 @@
           <li>15個：コラボドリンク1杯</li>
           <li>20個：絶滅寸前種（CR）ステッカー1枚</li>
         </ul>
+      </section>
 
-        <a id="sect-stamprally"></a>
+      <section id="sect-stamprally">
         <h5>スタンプラリー</h5>
         <p>毎日設置場所が変わるスタンプを押そう！2週間ごとに絵柄が変わるよ！
           <br />1回の入場につき1回押せます。同じ柄のスタンプを押してもOKです！
         </p>
+      </section>
 
-        <a id="sect-changed"></a>
-        <section>
-          <h5>昨年からの変更点</h5>
-          <p>昨年の入場券は3,000円にジョッキまたはグラス、および1,000円分のフードチケットがついていました。
-            <br />今年は3,500円でお通し付きの小鉢と1,000円分のフードチケットです。(初参加者であれば)ジョッキを別途購入するため実質5,000円(2,000円弱の値上げに相当)です。
-          </p>
-        </section>
+      <section id="sect-changed">
+        <h5>昨年からの変更点</h5>
+        <p>昨年の入場券は3,000円にジョッキまたはグラス、および1,000円分のフードチケットがついていました。
+          <br />今年は3,500円でお通し付きの小鉢と1,000円分のフードチケットです。(初参加者であれば)ジョッキを別途購入するため実質5,000円(2,000円弱の値上げに相当)です。
+        </p>
+      </section>
 
-        <a id="sect-fix-info"></a>
+      <section id="sect-fix-info">
         <h5>確定の情報</h5>
-        <section>
-          <ul class="dot-list">
-            <li>土日祝の入場券は楽天チケットにて販売中。平日は直接現地へ
-              <a href="https://twitter.com/kemono_matsuri/status/1012532300918095873" rel="external"></a>
-            </li>
-            <li>お盆期間中（8/13〜15）は平日でも予約扱い。土日祝でも、予約が売り切れていない部分について当日整理券発行。状況は公式twitterで要確認。</li>
-            <li>当日整理券は1階蕎麦屋横で配布、オープン後は屋上の入り口で配布
-              <a href="https://twitter.com/kemono_matsuri/status/1021998826540945411" rel="external"></a>
-            </li>
-            <li>ジョッキやグラスは再奥物販コーナーにて購入</li>
-            <li>ジョッキは1日1個限定、グラスは購入制限なし</li>
-            <li>入場時間は120分、そのうち飲み放題は90分(30分前ラストオーダー)</li>
-            <li>ジョッキを持参して来ていない参加者へは貸しジョッキあり（物販ジョッキを購入推奨）</li>
-            <li>星のついた昨年の500円フードチケットは、今年(2期)のフードチケットと交換になります</li>
-            <li>19時入場に対する1時間延長サービスは、アルコール：2,000円、ノンアルコール：1,000円で閉店まで延長できます。(前年と変更あり)
-              <span>
-                <a href="https://twitter.com/mamedaikichi/status/1020670514799390721" rel="external"></a>
-              </span>
-            </li>
-            <li>昼営業12時回、夜営業18時回には追加料金での延長サービスは
-              <span class="kenten">ありません</span>。
-            </li>
-            <li>席にビーチパラソルが追加されました。</li>
-            <li>運が良いとイベントに立ち会えます
-              <ul class="dot-list" style="padding-left: 1em;">
-                <li>和太鼓演奏</li>
-                <li>声優さんがくるかも（撮影はNGですよ！）</li>
-                <li>もりのおんがくかいの演奏（去年）</li>
-                <li>セルリアン登場（去年）</li>
-              </ul>
-            </li>
-            <li>コスプレをしたスタッフに出会えるかも⁈ ※一般のコスプレイヤーもいます。
-              <span class="red-text">撮影とネットへのアップは相手の許可を取ってから！</span>
-            </li>
-          </ul>
-        </section>
+        <ul class="dot-list">
+          <li>土日祝の入場券は楽天チケットにて販売中。平日は直接現地へ
+            <a href="https://twitter.com/kemono_matsuri/status/1012532300918095873" rel="external"></a>
+          </li>
+          <li>お盆期間中（8/13〜15）は平日でも予約扱い。土日祝でも、予約が売り切れていない部分について当日整理券発行。状況は公式twitterで要確認。</li>
+          <li>当日整理券は1階蕎麦屋横で配布、オープン後は屋上の入り口で配布
+            <a href="https://twitter.com/kemono_matsuri/status/1021998826540945411" rel="external"></a>
+          </li>
+          <li>ジョッキやグラスは再奥物販コーナーにて購入</li>
+          <li>ジョッキは1日1個限定、グラスは購入制限なし</li>
+          <li>入場時間は120分、そのうち飲み放題は90分(30分前ラストオーダー)</li>
+          <li>ジョッキを持参して来ていない参加者へは貸しジョッキあり（物販ジョッキを購入推奨）</li>
+          <li>星のついた昨年の500円フードチケットは、今年(2期)のフードチケットと交換になります</li>
+          <li>19時入場に対する1時間延長サービスは、アルコール：2,000円、ノンアルコール：1,000円で閉店まで延長できます。(前年と変更あり)
+            <span>
+              <a href="https://twitter.com/mamedaikichi/status/1020670514799390721" rel="external"></a>
+            </span>
+          </li>
+          <li>昼営業12時回、夜営業18時回には追加料金での延長サービスは
+            <span class="kenten">ありません</span>。
+          </li>
+          <li>席にビーチパラソルが追加されました。</li>
+          <li>運が良いとイベントに立ち会えます
+            <ul class="dot-list" style="padding-left: 1em;">
+              <li>和太鼓演奏</li>
+              <li>声優さんがくるかも（撮影はNGですよ！）</li>
+              <li>もりのおんがくかいの演奏（去年）</li>
+              <li>セルリアン登場（去年）</li>
+            </ul>
+          </li>
+          <li>コスプレをしたスタッフに出会えるかも⁈ ※一般のコスプレイヤーもいます。
+            <span class="red-text">撮影とネットへのアップは相手の許可を取ってから！</span>
+          </li>
+        </ul>
+      </section>
 
-        <a id="sect-test-info"></a>
-        <section>
-          <h5>要検証の情報</h5>
-          <ul class="dot-list">
-            <li>大阪もりのおんがくかいの半券対応はまだ決まっていない（スタッフにも聞かされていない）</li>
-            <li>19時回の延長サービスの受付時間が20時半だったり21時だったり...</li>
-            <li>クレーンゲームは確立機（技術関係なく一定の金額を出さないと取れない仕組み）？</li>
-          </ul>
-        </section>
+      <section id="sect-test-info">
+        <h5>要検証の情報</h5>
+        <ul class="dot-list">
+          <li>大阪もりのおんがくかいの半券対応はまだ決まっていない（スタッフにも聞かされていない）</li>
+          <li>19時回の延長サービスの受付時間が20時半だったり21時だったり...</li>
+          <li>クレーンゲームは確立機（技術関係なく一定の金額を出さないと取れない仕組み）？</li>
+        </ul>
+      </section>
       </section>
 
       <div id="gardengoods">
-        <a id="sect-food"></a>
-        <section>
-          <h4>フードメニュー</h4>
-          <p>
-            <a href="http://matsuri-kf-garden.jp/images/menu/kemono_menu2018.pdf" rel="external">クリックして詳細を確認(公式サイトPDF)</a>
-          </p>
-          <button class="openBtn btn btn-large">表示する</button>
-          <div class="textArea">
-            <div id="food" class="flex-container">
-              <gardengoods-item v-for="item in foodGroceryList" v-bind:todo="item" v-bind:target="food"></gardengoods-item>
+        <section id="sect-gardengoods">
+          <h4>コラボフード / 景品 / グッズ</h4>
+          <section id="sect-foods">
+            <h5>フードメニュー</h5>
+            <p>
+              <a href="http://matsuri-kf-garden.jp/images/menu/kemono_menu2018.pdf" rel="external">クリックして詳細を確認(公式サイトPDF)</a>
+            </p>
+            <button class="openBtn btn btn-large">表示する</button>
+            <div class="textArea">
+              <div id="food" class="flex-container">
+                <gardengoods-item v-for="item in foodGroceryList" v-bind:todo="item" v-bind:target="food"></gardengoods-item>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <a id="sect-coaster"></a>
-        <section>
-          <h4>コースター
-            <span>全9種類</span>
-          </h4>
-          <button class="openBtn btn btn-large">表示する</button>
-          <div class="textArea">
-            <div id="coaster" class="flex-container">
-              <gardengoods-item v-for="item in coasterGroceryList" v-bind:todo="item" v-bind:target="coaster"></gardengoods-item>
+          <section id="sect-coaster">
+            <h5>コースター
+              <span>全9種類</span>
+            </h5>
+            <button class="openBtn btn btn-large">表示する</button>
+            <div class="textArea">
+              <div id="coaster" class="flex-container">
+                <gardengoods-item v-for="item in coasterGroceryList" v-bind:todo="item" v-bind:target="coaster"></gardengoods-item>
+              </div>
             </div>
-          </div>
-          <!--[end]textArea-->
-        </section>
+            <!--[end]textArea-->
+          </section>
 
-        <a id="sect-kobachi"></a>
-        <section>
-          <h4>小鉢
-            <span>全11種類(+未確認1種類)</span>
-          </h4>
-          <button class="openBtn btn btn-large">表示する</button>
-          <div class="textArea">
-            <div id="kobachi" class="flex-container">
-              <gardengoods-item v-for="item in kobachiGroceryList" v-bind:todo="item" v-bind:target="kobachi"></gardengoods-item>
+          <section id="sect-kobachi">
+            <h5>小鉢
+              <span>全11種類(+未確認1種類)</span>
+            </h5>
+            <button class="openBtn btn btn-large">表示する</button>
+            <div class="textArea">
+              <div id="kobachi" class="flex-container">
+                <gardengoods-item v-for="item in kobachiGroceryList" v-bind:todo="item" v-bind:target="kobachi"></gardengoods-item>
+              </div>
             </div>
-          </div>
-          <!--[end]textArea-->
-        </section>
+            <!--[end]textArea-->
+          </section>
 
-        <a id="sect-shateki"></a>
-        <section>
-          <h4>射的景品
-            <span>全38種類？</span>
-          </h4>
-          <button class="openBtn btn btn-large">表示する</button>
-          <div class="textArea">
-            <div id="shateki" class="flex-container">
-              <gardengoods-item v-for="item in shatekiGroceryList" v-bind:todo="item" v-bind:target="shateki"></gardengoods-item>
+          <section id="sect-shateki">
+            <h5>射的景品
+              <span>全38種類？</span>
+            </h5>
+            <button class="openBtn btn btn-large">表示する</button>
+            <div class="textArea">
+              <div id="shateki" class="flex-container">
+                <gardengoods-item v-for="item in shatekiGroceryList" v-bind:todo="item" v-bind:target="shateki"></gardengoods-item>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <a id="sect-goods"></a>
-        <section>
-          <h4>物販商品</h4>
-          <p>去年の商品はこちらからも購入できます！
-            <br />オンラインショップで売り切れになっていてもがーでん物販ブースにて販売されているものもあります！
-            <br />
-            <a href="https://kemono-friends-shop.net/" rel="external" title="がーでんショップ">けものフレンズがーでんショップ
+          <section id="sect-goods">
+            <h5>物販商品</h5>
+            <p>去年の商品はこちらからも購入できます！
+              <br />オンラインショップで売り切れになっていてもがーでん物販ブースにて販売されているものもあります！
+              <br />
+              <a href="https://kemono-friends-shop.net/" rel="external" title="がーでんショップ">けものフレンズがーでんショップ
 
+              </a>
+              <br />
+              <a href="https://japaricafe.shop/" rel="external" title="けもフレカフェショップ">けものフレンズカフェショップ</a>
+            </p>
+
+            <a href="goods.html" title="物販商品">
+              <figure>
+                <img src="img/glass/comparison.png" alt="物販商品画像" class="responsive-img" />
+                <figcaption class="center-align">今年のがーでん物販の取り扱い商品一覧</figcaption>
+              </figure>
             </a>
-            <br />
-            <a href="https://japaricafe.shop/" rel="external" title="けもフレカフェショップ">けものフレンズカフェショップ</a>
-          </p>
+          </section>
+        </section>
 
-          <a href="goods.html" title="物販商品">
+        <section id="sect-facility">
+          <h4>施設関連</h4>
+          <section id="sect-games">
+            <h5>ガチャガチャとクレーンゲーム</h5>
+            <div class="flex-container">
+              <div class="flex-item">
+                <figure>
+                  <img src="img/games/gamesPlace.png" class="responsive-img" alt="ゲームコーナー" />
+                  <figcaption>クレーンゲーム&amp;ガチャコーナー
+                    <a href="img/games/gamesPlace.png" title="100%" rel="nofollow">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="flex-item">
+                <figure>
+                  <img src="img/games/gacha.png" class="responsive-img" alt="ガチャガチャ筐体" />
+                  <figcaption>ガチャガチャの筐体
+                    <a href="img/games/gacha.png" title="100%" rel="nofollow">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="flex-item">
+                <figure>
+                  <img src="img/games/crane.png" class="responsive-img" alt="クレーンゲーム筐体" />
+                  <figcaption>クレーンゲームの筐体
+                    <a href="img/games/crane.png" title="100%" rel="nofollow">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="flex-item">
+                <figure>
+                  <img src="img/games/exchange.png" class="responsive-img" alt="両替機" />
+                  <figcaption>クレーンゲームの筐体
+                    <a href="img/games/exchange.png" title="100%" rel="nofollow">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="flex-item">
+                <figure>
+                  <img src="img/games/craneNotice.png" class="responsive-img" alt="注意書き" />
+                  <figcaption>クレーンゲームの注意書き
+                    <a href="img/games/craneNotice.png" title="100%" rel="nofollow">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <h6>設置場所：楽園タウンビル3階</h6>
+            <p>クレーンゲーム（およびガチャガチャ）は混雑時3回までです。譲り合って楽しみましょう！
+              <br />両替機は1,000円のみ崩すことができます。
+              <br />スタッフが常に立っていますので、何かあれば尋ねてください。指示には従ってね！
+            </p>
+          </section>
+
+          <section id="sect-japaman">
+            <h5>ジャパまん投げコーナー</h5>
             <figure>
-              <img src="img/glass/comparison.png" alt="物販商品画像" class="responsive-img" />
-              <figcaption class="center-align">今年のがーでん物販の取り扱い商品一覧</figcaption>
+              <img src="img/ornaments/japaman.png" class="responsive-img" alt="ジャパまん投げ筐体" />
+              <figcaption>筐体
+                <a href="img/ornaments/japaman.png" title="100%" rel="nofollow">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                </a>
+              </figcaption>
             </figure>
-          </a>
-        </section>
+            <h6>設置場所：物販横</h6>
 
-        <a id="sect-games"></a>
-        <section>
-          <h4>ガチャガチャとクレーンゲーム</h4>
-          <div class="flex-container">
-            <div class="flex-item">
-              <figure>
-                <img src="img/games/gamesPlace.png" class="responsive-img" alt="ゲームコーナー" />
-                <figcaption>クレーンゲーム&amp;ガチャコーナー
-                  <a href="img/games/gamesPlace.png" title="100%" rel="nofollow">
-                    <i class="fas fa-expand-arrows-alt"></i>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="flex-item">
-              <figure>
-                <img src="img/games/gacha.png" class="responsive-img" alt="ガチャガチャ筐体" />
-                <figcaption>ガチャガチャの筐体
-                  <a href="img/games/gacha.png" title="100%" rel="nofollow">
-                    <i class="fas fa-expand-arrows-alt"></i>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="flex-item">
-              <figure>
-                <img src="img/games/crane.png" class="responsive-img" alt="クレーンゲーム筐体" />
-                <figcaption>クレーンゲームの筐体
-                  <a href="img/games/crane.png" title="100%" rel="nofollow">
-                    <i class="fas fa-expand-arrows-alt"></i>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="flex-item">
-              <figure>
-                <img src="img/games/exchange.png" class="responsive-img" alt="両替機" />
-                <figcaption>クレーンゲームの筐体
-                  <a href="img/games/exchange.png" title="100%" rel="nofollow">
-                    <i class="fas fa-expand-arrows-alt"></i>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="flex-item">
-              <figure>
-                <img src="img/games/craneNotice.png" class="responsive-img" alt="注意書き" />
-                <figcaption>クレーンゲームの注意書き
-                  <a href="img/games/craneNotice.png" title="100%" rel="nofollow">
-                    <i class="fas fa-expand-arrows-alt"></i>
-                  </a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <h6>設置場所：楽園タウンビル3階</h6>
-          <p>クレーンゲーム（およびガチャガチャ）は混雑時3回までです。譲り合って楽しみましょう！
-            <br />両替機は1,000円のみ崩すことができます。
-            <br />スタッフが常に立っていますので、何かあれば尋ねてください。指示には従ってね！
-          </p>
-        </section>
+            <p>2018/7/20 あまりに難易度が高すぎたため、重量が変更されました。</p>
+            <figure>
+              <img src="img/ornaments/japamanComparison.png" class="responsive-img" alt="重量変更" />
+              <figcaption>変更前（左）→ 変更後（右）
+                <a href="img/ornaments/japamanComparison.png" title="100%" rel="nofollow">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                </a>
+              </figcaption>
+            </figure>
+          </section>
 
-        <a id="sect-japaman"></a>
-        <section>
-          <h4>ジャパまん投げコーナー</h4>
-          <figure>
-            <img src="img/ornaments/japaman.png" class="responsive-img" alt="ジャパまん投げ筐体" />
-            <figcaption>筐体
-              <a href="img/ornaments/japaman.png" title="100%" rel="nofollow">
-                <i class="fas fa-expand-arrows-alt"></i>
-              </a>
-            </figcaption>
-          </figure>
-          <h6>設置場所：物販横</h6>
-
-          <p>2018/7/20 あまりに難易度が高すぎたため、重量が変更されました。</p>
-          <figure>
-            <img src="img/ornaments/japamanComparison.png" class="responsive-img" alt="重量変更" />
-            <figcaption>変更前（左）→ 変更後（右）
-              <a href="img/ornaments/japamanComparison.png" title="100%" rel="nofollow">
-                <i class="fas fa-expand-arrows-alt"></i>
-              </a>
-            </figcaption>
-          </figure>
+          <section id="sect-ornaments">
+            <h5>装飾等</h5>
+            <ul>
+              <li>昨年度掲示のパネル展示あり</li>
+              <li>としょかんのモニュメントが中央に設置</li>
+              <li>ジャパまん投げこーなー</li>
+              <li>射的（パッカァーン！2）こーなー ※景品は昨年と同様スタンドパネル（新規柄）</li>
+              <li>同ビル3階にガチャガチャとクレーンゲームを設置</li>
+              <li>2018年7月21日(土)に開催された、もりのおんがくかいFinalの非売予定音源を放送予定
+                <a href="https://twitter.com/kemono_matsuri/status/1020662363605745664" rel="external"></a>
+              </li>
+            </ul>
+          </section>
         </section>
-
-        <a id="sect-ornament"></a>
-        <section>
-          <h4>装飾等</h4>
-          <ul>
-            <li>昨年度掲示のパネル展示あり</li>
-            <li>としょかんのモニュメントが中央に設置</li>
-            <li>ジャパまん投げこーなー</li>
-            <li>射的（パッカァーン！2）こーなー ※景品は昨年と同様スタンドパネル（新規柄）</li>
-            <li>同ビル3階にガチャガチャとクレーンゲームを設置</li>
-            <li>2018年7月21日(土)に開催された、もりのおんがくかいFinalの非売予定音源を放送予定
-              <a href="https://twitter.com/kemono_matsuri/status/1020662363605745664" rel="external"></a>
-            </li>
-          </ul>
-        </section>
+        <!--[end]sect-facility-->
       </div>
       <!--[end]gardengoods-->
 
-      <a id="sect-notice"></a>
-      <section>
+      <section id="sect-notice">
         <h4>諸注意</h4>
         <div id="notice">
           <ol>
@@ -1031,8 +1159,7 @@
 
       <div class="divider gray darken-3" style="margin: 6em 0;border: 1px dotted;"></div>
 
-      <a id="sect-siteinfo"></a>
-      <section>
+      <section id="sect-siteinfo">
         <h4>本サイト、およびその情報について</h4>
         <h5 class="center-align orange darken-2 white-text bold" style="padding:1em;">作成理念「初めてでも不安なくがーでんへゆく為に」</h5>
         <p class="black center-align bold" style="padding: 1em;overflow: hidden;position: relative;">
@@ -1045,27 +1172,31 @@
           </a>
         </p>
 
-        <h5>情報収集手法</h5>
-        <ol>
-          <li>
-            <a href="https://twitter.com/htktkgt" rel="external">ななみ隣@htktkgt</a>が手動にて検索し、ツイート投稿者へ確認が取れたもの</li>
-          <li>DMにていただいた情報を掲載</li>
-          <li>
-            <a href="https://twitter.com/search?q=%23%E3%81%8C%E3%83%BC%E3%81%A7%E3%82%93%E3%81%84%E3%82%93%E3%81%B5%E3%81%89&src=typd"
-              title="Twitter_Trend" rel="external">#がーでんいんふぉ</a>をつけて投稿されたツイート</li>
-        </ol>
+        <section id="sect-crawling">
+          <h5>情報収集手法</h5>
+          <ol>
+            <li>
+              <a href="https://twitter.com/htktkgt" rel="external">ななみ隣@htktkgt</a>が手動にて検索し、ツイート投稿者へ確認が取れたもの</li>
+            <li>DMにていただいた情報を掲載</li>
+            <li>
+              <a href="https://twitter.com/search?q=%23%E3%81%8C%E3%83%BC%E3%81%A7%E3%82%93%E3%81%84%E3%82%93%E3%81%B5%E3%81%89&src=typd"
+                title="Twitter_Trend" rel="external">#がーでんいんふぉ</a>をつけて投稿されたツイート</li>
+          </ol>
 
-        <p>#がーでんいんふぉ はけもフレがーでんの情報共有、また本ページ作成と情報共有を目的として作成されたものです。本ページ作成の際にツイート(ご案内)をいたしました
-          <a href="https://twitter.com/htktkgt/status/1021121729127518208" rel="external"></a>が、こちらに掲載されることを希望されない場合はこちらのハッシュタグを使用しないでツイートをお願いいたします。</p>
+          <p>#がーでんいんふぉ はけもフレがーでんの情報共有、また本ページ作成と情報共有を目的として作成されたものです。本ページ作成の際にツイート(ご案内)をいたしました
+            <a href="https://twitter.com/htktkgt/status/1021121729127518208" rel="external"></a>が、こちらに掲載されることを希望されない場合はこちらのハッシュタグを使用しないでツイートをお願いいたします。</p>
+        </section>
 
-        <h5>各情報の信頼性</h5>
-        <p>都度確認して行きますが、利用については各人の自己判断においてお願いいたします。
-          <br />平易な用語を用いるよう心がけていますが、わかりにくい箇所ありましたら上記よりご連絡ください。
-          <br />なお、#けもフレがーでん で
-          <a href="https://twitter.com/search?q=%23けもフレがーでん" rel="external" title="Twitter">Twitter検索</a>をかけますと、公式や参加者のつぶやきが確認できます。ハッシュタグをつけて疑問を投稿すると解決するかもしれません。</p>
+        <section id="sect-reliability">
+          <h5>各情報の信頼性</h5>
+          <p>都度確認して行きますが、利用については各人の自己判断においてお願いいたします。
+            <br />平易な用語を用いるよう心がけていますが、わかりにくい箇所ありましたら上記よりご連絡ください。
+            <br />なお、#けもフレがーでん で
+            <a href="https://twitter.com/search?q=%23けもフレがーでん" rel="external" title="Twitter">Twitter検索</a>をかけますと、公式や参加者のつぶやきが確認できます。ハッシュタグをつけて疑問を投稿すると解決するかもしれません。</p>
+        </section>
 
-        <h5>けものフレンズに関する調査</h5>
-        <section>
+        <section id="sect-research">
+          <h5>けものフレンズに関する調査</h5>
           けものフレンズ、けもフレがーでん、および当サイトに関する調査を行なっております。
           <br />ご協力いただける方は以下のリンクよりご回答をお願いいたします。
           <br />なお、いただいた情報はいかなる理由でも公開いたしません。サイト制作のためのみに活用させていただきます。
@@ -1076,66 +1207,65 @@
             </figure>
           </a>
         </section>
+
+        <section id="sect-reason">
+          <h5>本ページを作成した理由</h5>
+          <p>本章は人により不快になる可能性があるため非表示になっています。非表示推奨対象者：けものフレンズ、がーでんを無条件に肯定している方</p>
+          <button class="openBtn btn btn-large">表示する</button>
+          <div class="textArea">
+            <p>
+              まず最初に明言しておきたいことは、
+              <span class="kenten">わたしはけものフレンズが大好きです。そしてそれと同じくらいがーでんが大好きです</span>。
+              <br />しかし、けものフレンズ(@KFP)にも、がーでんにも問題があると私は思います。ただしこれは、「たつき監督が...」 や「KADOKAWAが...」といったこととは
+              <span class="bold">違います</span>。
+              <br />例えば、けものフレンズやがーでんにはフットワークの軽さが非常によく表れていると思います。急遽イベントに参加したり、参加特典をつけたりなど他の企画であればできないようなスピードで物事が決定されているのは皆さんも知るところだと思います。
+              <br />ですが、物事をあまりに素早く進めようとし、拙速になっている点があると言わざるを得ません。ツイートでお知らせしていながら当日に間に合っていなかったり、特典をつけるといいながらその後お知らせがなかったりすることがあります。
+              <br />また、そんな点をフレンズのみなさん（ファンコミュニティ）や初期ではけものフレンズチャンネルが支えていることも長短あると考えています。
+              <br />本来であれば企画会社や運営スタッフが先んじて手を打っていなければいけないことがなおざりになっていることが多々あります。そんな点をコミュニティの皆さんで情報共有し合い、補完しているのは2017年の段階でけものフレンズチャンネルにけものフレンズ（公式）が感謝している点でもわかるかと思います。
+              <br />また、お知らせの告知方法にも問題があると感じています。Twitterは宣伝には大いに役に立つところであることは異論ありません。が、その性質上情報がすぐにネットの大海に埋もれてしまい、誰もが完全な情報にアクセスできずにいます。
+              <br />本来ならそういった情報はウェブサイトにてまとめて掲載し、がーでんに行きたいと考えている何人でも等しく得られなければ、新規のファンを得ることは叶わず、ひいてはコミュニティや作品の衰退を招くと考えています。
+              <br />そしてその役目はコミュニティの有志ではなく、けものフレンズ（公式）が担わなければならないと考えています。異論はあるでしょうが、これがわたしの意見です。
+            </p>
+            <p>
+              しかしない以上、その役目は誰かがやらねばならないと思いましたし、
+              <span class="bold">そういった文句を再生産することなく消費するだけの人間が言うべきではない。</span>その矜恃と相反しないためにわたしは今回、このページを作成した次第です。
+              <br />
+              <br />深夜帯アニメというのは時間の関係上、見る人間はある程度年齢のいった方ですし、１クールだけのアニメが多い以上、コミュニティは放送当時の人がほとんどでしょう。
+              <br />しかし、わたしはけものフレンズにドラえもんや、ポケモン、プリキュアといった作品になってもらいたいと思っています。
+              <br />意味として二つあり、一つは作品が長く続いて欲しいという意味です。どのような形であれ多くの人に楽しんでもらえ、例えば動物や自然科学の初学者の教科書になりうる作品になれば素晴らしいなと思っています。
+              <br />二つめは、常に流動性のあるコミュニティであることです。長く続くには同じ人が支え続けるのではなく、新しい人がコミュニティに参画することが必須だと考えます。同じ人たちで支えるということは、時間とともにコミュニティ全体の年齢が上がることを意味します。それは確実に規模の縮小を起こします。
+              <br />そして、同じ人たちであるということはコミュニティの硬直を招き、排他的になります。「ファンならこれを知っているべき」「これがこの作品の常識」そういった意識が、無意識にコミュニティの外の人を遠ざけます。そうなれば、もう新しくファンがコミュニティに参加することはできないでしょう。
+              <br />常に新しいファンを入れるという点において、上にあげた作品は大いに参考になるでしょう。共通点は「常に同じ年齢層の子どもがファンになっている」という点です。プリキュアには大人がファンになっている点もありますが、作品のコンセプトとして「4~6歳女児」をメインターゲットにしてますのでこの際は無視してください。
+              <br />新しいファンとなった子ども達が子ども達同士の会話において好きを語り合い、グッズを買い支え、そして成長とともにコミュニティから卒業していく。その基本サイクルがあるからこそ、どの段階で入ったファンであってもその作品を楽しむことができます。卒業した子どもも、記憶の中に作品があれば時折それを思い出しますし、何より「子どもの頃に見たものはなんであれ肯定する」というところは大きいでしょう。
+              <br />
+              <br />けものフレンズ2期で大きく揺れていますが、わたしとしては綺麗なまま死んでもらってもいいかなと思っています。しかしやるならもはやスティーブン・スピルバーグ監督が監督になったとしても、たつき監督が戻っても大きな批判にさらされるでしょう。
+              <br />ですから、わたしはプリキュアのように1期のキャラクタは一切出さずに、けものフレンズの概念だけを引き継いだ作品になってもいいと思っています。
+            </p>
+            <p>
+              また、参加者の皆さんにも少し考えものな点もあります。けものフレンズの公式イベントは放送が終わってしまったこともありあまり多くありませんでした。そのため有志がオフ会を頻繁に開催していました。
+              <br />その流れをそのまま公式のがーでん2期に持ってきてはいないですか？正直
+              <span class="bold">内輪ネタ（排他性の高い話題）や、そのノリ（雰囲気）を公式に持ち込むのはわたしは違う</span>と思います。
+              <br />久しぶりに公式イベントが行われて楽しい気持ち、嬉しい気持ちは十分にわかりますが、オフ会に参加していなかった人や初参加の人たちにとってその雰囲気は決してがーでんにとっていい思い出として残らないと感じています。参加意識を変えろとは言いません。しかし自身の行動を少し省みていただければと思っています。
+            </p>
+            <p>
+              さて、色々な話に飛んでしまいましたが、わたしが皆さんにいいたいことは一つ。「
+              <span class="bold kenten">あなたはけものがお好きですか？</span>」
+              <br />みなさんに善き一日があらんことを。御清覧に感謝します。
+            </p>
+          </div>
+        </section>
+
+        <section id="sect-specialthanks">
+          <h5>謝辞 / Special Thanks</h5>
+          <div id="spthx">
+            <p>この場を借りて、情報・資料・素材提供をいただいた方にお礼を申し上げます。（敬称略・順不同）</p>
+            <ul style="text-indent:1em;">
+              <thanks-item v-for="item in spthxGroceryList" v-bind:todo="item"></thanks-item>
+            </ul>
+          </div>
+        </section>
       </section>
 
-      <a id="sect-reason"></a>
-      <section>
-        <h4>本ページを作成した理由</h4>
-        <p>本章は人により不快になる可能性があるため非表示になっています。非表示推奨対象者：けものフレンズ、がーでんを無条件に肯定している方</p>
-        <button class="openBtn btn btn-large">表示する</button>
-        <div class="textArea">
-          <p>
-            まず最初に明言しておきたいことは、
-            <span class="kenten">わたしはけものフレンズが大好きです。そしてそれと同じくらいがーでんが大好きです</span>。
-            <br />しかし、けものフレンズ(@KFP)にも、がーでんにも問題があると私は思います。ただしこれは、「たつき監督が...」 や「KADOKAWAが...」といったこととは
-            <span class="bold">違います</span>。
-            <br />例えば、けものフレンズやがーでんにはフットワークの軽さが非常によく表れていると思います。急遽イベントに参加したり、参加特典をつけたりなど他の企画であればできないようなスピードで物事が決定されているのは皆さんも知るところだと思います。
-            <br />ですが、物事をあまりに素早く進めようとし、拙速になっている点があると言わざるを得ません。ツイートでお知らせしていながら当日に間に合っていなかったり、特典をつけるといいながらその後お知らせがなかったりすることがあります。
-            <br />また、そんな点をフレンズのみなさん（ファンコミュニティ）や初期ではけものフレンズチャンネルが支えていることも長短あると考えています。
-            <br />本来であれば企画会社や運営スタッフが先んじて手を打っていなければいけないことがなおざりになっていることが多々あります。そんな点をコミュニティの皆さんで情報共有し合い、補完しているのは2017年の段階でけものフレンズチャンネルにけものフレンズ（公式）が感謝している点でもわかるかと思います。
-            <br />また、お知らせの告知方法にも問題があると感じています。Twitterは宣伝には大いに役に立つところであることは異論ありません。が、その性質上情報がすぐにネットの大海に埋もれてしまい、誰もが完全な情報にアクセスできずにいます。
-            <br />本来ならそういった情報はウェブサイトにてまとめて掲載し、がーでんに行きたいと考えている何人でも等しく得られなければ、新規のファンを得ることは叶わず、ひいてはコミュニティや作品の衰退を招くと考えています。
-            <br />そしてその役目はコミュニティの有志ではなく、けものフレンズ（公式）が担わなければならないと考えています。異論はあるでしょうが、これがわたしの意見です。
-          </p>
-          <p>
-            しかしない以上、その役目は誰かがやらねばならないと思いましたし、
-            <span class="bold">そういった文句を再生産することなく消費するだけの人間が言うべきではない。</span>その矜恃と相反しないためにわたしは今回、このページを作成した次第です。
-            <br />
-            <br />深夜帯アニメというのは時間の関係上、見る人間はある程度年齢のいった方ですし、１クールだけのアニメが多い以上、コミュニティは放送当時の人がほとんどでしょう。
-            <br />しかし、わたしはけものフレンズにドラえもんや、ポケモン、プリキュアといった作品になってもらいたいと思っています。
-            <br />意味として二つあり、一つは作品が長く続いて欲しいという意味です。どのような形であれ多くの人に楽しんでもらえ、例えば動物や自然科学の初学者の教科書になりうる作品になれば素晴らしいなと思っています。
-            <br />二つめは、常に流動性のあるコミュニティであることです。長く続くには同じ人が支え続けるのではなく、新しい人がコミュニティに参画することが必須だと考えます。同じ人たちで支えるということは、時間とともにコミュニティ全体の年齢が上がることを意味します。それは確実に規模の縮小を起こします。
-            <br />そして、同じ人たちであるということはコミュニティの硬直を招き、排他的になります。「ファンならこれを知っているべき」「これがこの作品の常識」そういった意識が、無意識にコミュニティの外の人を遠ざけます。そうなれば、もう新しくファンがコミュニティに参加することはできないでしょう。
-            <br />常に新しいファンを入れるという点において、上にあげた作品は大いに参考になるでしょう。共通点は「常に同じ年齢層の子どもがファンになっている」という点です。プリキュアには大人がファンになっている点もありますが、作品のコンセプトとして「4~6歳女児」をメインターゲットにしてますのでこの際は無視してください。
-            <br />新しいファンとなった子ども達が子ども達同士の会話において好きを語り合い、グッズを買い支え、そして成長とともにコミュニティから卒業していく。その基本サイクルがあるからこそ、どの段階で入ったファンであってもその作品を楽しむことができます。卒業した子どもも、記憶の中に作品があれば時折それを思い出しますし、何より「子どもの頃に見たものはなんであれ肯定する」というところは大きいでしょう。
-            <br />
-            <br />けものフレンズ2期で大きく揺れていますが、わたしとしては綺麗なまま死んでもらってもいいかなと思っています。しかしやるならもはやスティーブン・スピルバーグ監督が監督になったとしても、たつき監督が戻っても大きな批判にさらされるでしょう。
-            <br />ですから、わたしはプリキュアのように1期のキャラクタは一切出さずに、けものフレンズの概念だけを引き継いだ作品になってもいいと思っています。
-          </p>
-          <p>
-            また、参加者の皆さんにも少し考えものな点もあります。けものフレンズの公式イベントは放送が終わってしまったこともありあまり多くありませんでした。そのため有志がオフ会を頻繁に開催していました。
-            <br />その流れをそのまま公式のがーでん2期に持ってきてはいないですか？正直
-            <span class="bold">内輪ネタ（排他性の高い話題）や、そのノリ（雰囲気）を公式に持ち込むのはわたしは違う</span>と思います。
-            <br />久しぶりに公式イベントが行われて楽しい気持ち、嬉しい気持ちは十分にわかりますが、オフ会に参加していなかった人や初参加の人たちにとってその雰囲気は決してがーでんにとっていい思い出として残らないと感じています。参加意識を変えろとは言いません。しかし自身の行動を少し省みていただければと思っています。
-          </p>
-          <p>
-            さて、色々な話に飛んでしまいましたが、わたしが皆さんにいいたいことは一つ。「
-            <span class="bold kenten">あなたはけものがお好きですか？</span>」
-            <br />みなさんに善き一日があらんことを。御清覧に感謝します。
-          </p>
-        </div>
-      </section>
-
-      <a id="sect-specialthanks"></a>
-      <section>
-        <h4>謝辞 / Special Thanks</h4>
-        <div id="spthx">
-          <p>この場を借りて、情報・資料・素材提供をいただいた方にお礼を申し上げます。（敬称略・順不同）</p>
-          <ul style="text-indent:1em;">
-            <thanks-item v-for="item in spthxGroceryList" v-bind:todo="item"></thanks-item>
-          </ul>
-        </div>
-      </section>
     </div>
     <!--[end]lazyload-->
 
