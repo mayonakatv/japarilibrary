@@ -73,17 +73,16 @@ var gardengoods = new Vue({
       ],
       kobachiGroceryList: [
         { id: 0, name: 'がーでん２ロゴ (がーでん２)', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DijX1q3VAAARVjA.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1020302641916653568', icon: defaultValue.external.icon },
-        { id: 1, name: 'がーでん２ロゴ （が） ※存在未確認', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 2, name: 'ボス', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjMldGdUUAESbY1.jpg', srcparent: 'https://twitter.com/Kdatlyno/status/1023202733761785857', icon: defaultValue.external.icon },
-        { id: 3, name: 'サーバル', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg', srcparent: 'https://twitter.com/Kdatlyno/status/1023202733761785857', icon: defaultValue.external.icon },
-        { id: 4, name: 'かばんちゃん', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/kaban.png', srcparent: 'img/kobachi/kaban.png', icon: defaultValue.internal.icon },
-        { id: 5, name: 'アライさん', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjGseZEUcAApJkA.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1022788236672815105', icon: defaultValue.external.icon },
-        { id: 6, name: 'フェネック', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjMldGhUYAEZV9o.jpg', srcparent: 'https://twitter.com/Kdatlyno/status/1023202733761785857', icon: defaultValue.external.icon },
-        { id: 7, name: 'プリンセス', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/princess.png', srcparent: 'img/kobachi/princess.png', icon: defaultValue.internal.icon },
-        { id: 8, name: 'ジェーン', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/gentoo.png', srcparent: 'img/kobachi/gentoo.png', icon: defaultValue.internal.icon },
-        { id: 9, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/iwabi.png', srcparent: 'img/kobachi/iwabi.png', icon: defaultValue.internal.icon },
-        { id: 10, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/koutei.png', srcparent: 'img/kobachi/koutei.png', icon: defaultValue.internal.icon },
-        { id: 11, name: 'フルル', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/fululu.png', srcparent: 'img/kobachi/fululu.png', icon: defaultValue.internal.icon }
+        { id: 1, name: 'ボス', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjMldGdUUAESbY1.jpg', srcparent: 'https://twitter.com/Kdatlyno/status/1023202733761785857', icon: defaultValue.external.icon },
+        { id: 2, name: 'サーバル', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjMldGdU4AUeVYI.jpg', srcparent: 'https://twitter.com/Kdatlyno/status/1023202733761785857', icon: defaultValue.external.icon },
+        { id: 3, name: 'かばんちゃん', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/kaban.png', srcparent: 'img/kobachi/kaban.png', icon: defaultValue.internal.icon },
+        { id: 4, name: 'アライさん', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjGseZEUcAApJkA.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1022788236672815105', icon: defaultValue.external.icon },
+        { id: 5, name: 'フェネック', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DjMldGhUYAEZV9o.jpg', srcparent: 'https://twitter.com/Kdatlyno/status/1023202733761785857', icon: defaultValue.external.icon },
+        { id: 6, name: 'プリンセス', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/princess.png', srcparent: 'img/kobachi/princess.png', icon: defaultValue.internal.icon },
+        { id: 7, name: 'ジェーン', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/gentoo.png', srcparent: 'img/kobachi/gentoo.png', icon: defaultValue.internal.icon },
+        { id: 8, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/iwabi.png', srcparent: 'img/kobachi/iwabi.png', icon: defaultValue.internal.icon },
+        { id: 9, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/koutei.png', srcparent: 'img/kobachi/koutei.png', icon: defaultValue.internal.icon },
+        { id: 10, name: 'フルル', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/fululu.png', srcparent: 'img/kobachi/fululu.png', icon: defaultValue.internal.icon }
       ],
       shatekiGroceryList: [
         { id: 0, name: '吉崎観音コンセプトデザイン柄', rel: '', alt: '', title: '', src: 'img/sysimg/map-marked-alt-solid.svg', srcparent: '', icon: '' },

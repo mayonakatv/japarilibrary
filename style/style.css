@@ -12,16 +12,14 @@ body {
   .navbar-fixed nav {
     width: 90vw !important;
   }
-  .flex-container .flex-item {
-    margin: .24em;
-    align-self: flex-end;
-    flex-basis: 45% !important;
-  }
 }
 
 @media only screen and (max-width: 993px){
   .container {
     width:85% !important;
+  }
+  .navbar-fixed {
+    min-height: 44px !important;
   }
   .navbar-fixed nav {
     width: 85vw !important;
@@ -295,3 +293,20 @@ header nav ul {
    opacity: 1;
    transition: all 0.5s;
  }
+
+ /* AdsArea */
+.adsArea-Amazon {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around;
+}
+.adsArea-Rakuten {
+  overflow: hidden;
+}
+.adsArea-Rakuten .item-container {
+  width: 33%;
+  margin: 0;
+  box-sizing: border-box;
+  float: left;
+}
