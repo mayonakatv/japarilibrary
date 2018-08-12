@@ -29,10 +29,11 @@ body {
     align-self: flex-end;
     flex-basis: 45% !important;
   }
-  #modalWindow {
+  .modalWindow {
     width: 80vw !important;
   }
-  #modalWindow figure {
+  .modalWindow figure,
+  .modalWindow iframe {
     width: 100% !important;
   }
 }
@@ -332,7 +333,7 @@ margin: .4em 0;
   z-index: 9998;
  }
 
-#modalWindow {
+.modalWindow {
   width: 50vw;
   max-height: 80vh;
   padding: 1.5em;
@@ -343,8 +344,8 @@ margin: .4em 0;
   overflow: scroll;
   z-index: 9999;
 }
-#modalWindow #sect-modal,
-#modalWindow #sect-modal figure {
+.modalWindow #sect-modal,
+.modalWindow #sect-modal figure {
   margin:0 auto;
   text-align: center;
 }
