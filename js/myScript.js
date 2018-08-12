@@ -1,3 +1,28 @@
+//http://exrecord.net/how-to-create-overlay-and-modal-window-in-jquery
+$(function () {
+  $('#overlay, #modalWindow').fadeIn();
+
+  $('.closeBtn').on('click tap', function () {
+    $('#overlay, #modalWindow').fadeOut();
+  });
+
+  locateCenter();
+  $(window).resize(locateCenter);
+
+  function locateCenter() {
+    let w = $(window).width();
+    let h = $(window).height();
+
+    let cw = $('#modalWindow').outerWidth();
+    let ch = $('#modalWindow').outerHeight();
+
+    $('#modalWindow').css({
+      'left': ((w - cw) / 2) + 'px',
+      'top': ((h - ch) / 3) + 'px'
+    });
+  }
+});
+
 $(function () {
   flag = 0;
   $('.openBtn').click(function () {
