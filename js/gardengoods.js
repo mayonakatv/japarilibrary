@@ -33,12 +33,12 @@ var gardengoods = new Vue({
     return {
       foodGroceryList: [
         { id: 0, name: 'Food [各種 500円]', rel: '', alt: 'food', src: 'img/sysimg/utensils-solid.svg', srcparent: '', icon: '' },
-        { id: 1, name: 'セルリアンの枝豆', rel: '', alt: 'food', src: '', srcparent: '', icon: '' },
+        { id: 1, name: 'セルリアンの枝豆', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanEdamame.png', srcparent: 'img/foods/ceruleanEdamame.png', icon: defaultValue.internal.icon },
         { id: 2, name: 'セルリアンのフライドポテト', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanFriedPotato.png', srcparent: 'img/foods/ceruleanFriedPotato.png', icon: defaultValue.internal.icon },
         { id: 3, name: 'フランクフルト', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/frankfurt.png', srcparent: 'img/foods/frankfurt.png', icon: defaultValue.internal.icon },
         { id: 4, name: 'セルリアンのたこ焼き', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanTakoyaki.png', srcparent: 'img/foods/ceruleanTakoyaki.png', icon: defaultValue.internal.icon },
         { id: 5, name: '肉まん', rel: '', alt: 'food', src: '', srcparent: '', icon: '' },
-        { id: 6, name: 'セルリアンのフライドチキン（黒）', rel: '', alt: 'food', src: '', srcparent: '', icon: '' },
+        { id: 6, name: 'セルリアンのフライドチキン（黒）', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/friedChickenBlack.png', srcparent: 'img/foods/friedChickenBlack.png', icon: defaultValue.internal.icon },
         { id: 7, name: 'セルリアンのフライドチキン（赤）', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/friedChickenRed.png', srcparent: 'img/foods/friedChickenRed.png', icon: defaultValue.internal.icon },
         { id: 8, name: 'Food [各種 300円]', rel: '', alt: 'food', src: 'img/sysimg/utensils-solid.svg', srcparent: '', icon: '' },
         { id: 9, name: 'セルリアンの卵串焼き', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanEgg.png', srcparent: 'img/foods/ceruleanEgg.png', icon: defaultValue.internal.icon },
@@ -54,13 +54,14 @@ var gardengoods = new Vue({
         { id: 19, name: 'PPPのミルクコーヒー', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/PPPMilkCoffee.png', srcparent: 'img/foods/PPPMilkCoffee.png', icon: defaultValue.internal.icon },
         { id: 20, name: 'ツチノコのショコララテ', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/tsuchinokoChocolatLatte.png', srcparent: 'img/foods/tsuchinokoChocolatLatte.png', icon: defaultValue.internal.icon },
         { id: 21, name: 'リョコウバトのストロベリーカルピス', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/ryokouStrawberryCalpis.png', srcparent: 'img/foods/ryokouStrawberryCalpis.png', icon: defaultValue.internal.icon },
-        { id: 22, name: 'Desert [各種 500円]', rel: '', alt: 'food', title: defaultValue.internal.title, src: '', srcparent: '', icon: '' },
+        { id: 22, name: 'Desert [各種 500円]', rel: defaultValue.external.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/sysimg/cookie-bite-solid.svg', srcparent: 'img/sysimg/cookie-bite-solid.svg', icon: defaultValue.internal.icon },
         { id: 23, name: 'セルリアンかき氷・赤', rel: '', alt: 'food', title: defaultValue.internal.title, src: '', srcparent: '', icon: '' },
         { id: 24, name: 'セルリアンかき氷・青', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DjcdunWVAAAR87Y.jpg', srcparent: 'https://twitter.com/htktkgt/status/1024320136356843520', icon: '' },
         { id: 25, name: 'セルリアンソフトクリーム', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
         { id: 26, name: 'セルリアン綿あめ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
         { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
-        { id: 28, name: '冷酒（日本酒） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: '', srcparent: '', icon: '' },
+        { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' },
+        { id: 29, name: '冷酒（日本酒） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: '', srcparent: '', icon: '' }
       ],
       coasterGroceryList: [
         { id: 0, name: 'イリオモテヤマネコ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/iriomoteyamaneko.png', srcparent: 'img/coaster/iriomoteyamaneko.png', icon: defaultValue.internal.icon },
