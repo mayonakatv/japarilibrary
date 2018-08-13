@@ -26,7 +26,8 @@ var officialnews = new Vue({
         { id: 5, href: 'https://twitter.com/kemono_matsuri/status/1023419590917779456', seen: false, remark: defaultValue.remark, text: 'みなさーん がーでんジョッキ(ppp集合ver)ですが、完売致しました！！ 入荷次第Twitterにあげますので、要チェックでお願いしまーす！ - 2018年7月24日 13:06' },
         { id: 6, href: 'https://twitter.com/kemono_matsuri/status/1024561148840960000', seen: true, remark: defaultValue.remark, text: '皆さーん そして今日からなんとスタンプラリーのスタンプキャラが変わるのだー！！ 果たして誰になるのか、、、 スタンプも要チェックなのだー！！ - 2018年8月1日 16:43' },
         { id: 7, href: 'https://twitter.com/kemono_matsuri/status/1024928621704564736', seen: true, remark: defaultValue.remark, text: '皆さーん 今日も暑いけどみんなのこと待ってるのだー そして今日から去年も販売していたジャンボうちわを販売しまーす！！パチパチ このうちわで今年の夏も乗り切るのだー - 2018年8月2日 17:03' },
-        { id: 8, href: 'https://twitter.com/kemono_matsuri/status/1027032997151760385', seen: true, remark: defaultValue.remark, text: '【営業中止のお知らせ】本日8/8(水)の営業ですが、台風の接近に伴い終日営業中止とさせて頂きます。ご来店予定だった皆様、大変申し訳ございません。またのご来店心よりお待ちしております。 #けもフレがーでん - 12:25 - 2018年8月8日' }
+        { id: 8, href: 'https://twitter.com/kemono_matsuri/status/1027032997151760385', seen: true, remark: defaultValue.remark, text: '【営業中止のお知らせ】本日8/8(水)の営業ですが、台風の接近に伴い終日営業中止とさせて頂きます。ご来店予定だった皆様、大変申し訳ございません。またのご来店心よりお待ちしております。 #けもフレがーでん - 12:25 - 2018年8月8日' },
+        { id: 9, href: 'https://twitter.com/kemono_matsuri/status/1028832142044745728', seen: true, remark: defaultValue.remark, text: '直前ですみません…！！ 明日からコースターのキャラクターが追加しま～す！！ なんと、16種もあります…… コラボドリンクでの配布とさせて頂いております。。 皆さん是非キャラクターを当ててみてくださいね～！ #けもフレがーでん - 11:34 - 2018年8月13日' }
       ]
     }
   }
