@@ -21,17 +21,18 @@ var dd = new Vue({
       { id: 7, href: '#sect-foods', title: 'フード' },
       { id: 8, href: '#sect-coaster', title: 'コースター' },
       { id: 9, href: '#sect-kobachi', title: '小鉢' },
-      { id: 10, href: '#sect-shateki', title: '射的' },
+      { id: 10, href: '#sect-shateki', title: '射的景品' },
       { id: 11, href: '#sect-goods', title: '物販' },
       { id: 12, href: '#sect-games', title: 'ガチャ等' },
       { id: 13, href: '#sect-japaman', title: 'ジャパまん投げ' },
-      { id: 14, href: '#sect-ornament', title: '装飾' },
+      { id: 14, href: '#sect-shatekiGame', title: '射的' },
+      { id: 15, href: '#sect-ornament', title: '装飾' },
       { id: 16, href: '#sect-notice', title: '諸注意' },
       { id: 17, href: '#sect-siteinfo', title: '本情報について' },
       { id: 18, href: '#sect-research', title: '調査フォーム' },
       { id: 19, href: '#sect-reason', title: '作成理由' },
-      { id: 20, href: '#sect-specialthanks', title: '謝辞' }
-    ]
+      { id: 20, href: '#sect-contact', title: 'お問い合わせ' },
+      { id: 21, href: '#sect-specialthanks', title: '謝辞' }]
   }
 })
 var sidenav = new Vue({
@@ -53,11 +54,13 @@ var sidenav = new Vue({
       { id: 12, href: '#sect-games', title: 'ガチャ等' },
       { id: 13, href: '#sect-japaman', title: 'ジャパまん投げ' },
       { id: 14, href: '#sect-ornament', title: '装飾' },
+      { id: 15, href: '#sect-shatekiGame', title: '射的' },
       { id: 16, href: '#sect-notice', title: '諸注意' },
       { id: 17, href: '#sect-siteinfo', title: '本情報について' },
       { id: 18, href: '#sect-research', title: '調査フォーム' },
       { id: 19, href: '#sect-reason', title: '作成理由' },
-      { id: 20, href: '#sect-specialthanks', title: '謝辞' }
+      { id: 20, href: '#sect-contact', title: 'お問い合わせ' },
+      { id: 21, href: '#sect-specialthanks', title: '謝辞' }
     ]
   }
 })
