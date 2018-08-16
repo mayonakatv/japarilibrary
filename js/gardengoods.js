@@ -61,7 +61,7 @@ var gardengoods = new Vue({
         { id: 26, name: 'セルリアン綿あめ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
         { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
         { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' },
-        { id: 29, name: '冷酒（日本酒/紙コップで提供） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: '', srcparent: '', icon: '' }
+        { id: 29, name: '冷酒（日本酒/紙コップで提供） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/goods/tsuchinokoGlass-min.png', srcparent: 'img/goods/tsuchinokoGlass.png', icon: defaultValue.internal.icon }
       ],
       coasterGroceryList: [
         { id: 0, name: '第一弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-one-solid.svg', srcparent: '', icon: '' },
