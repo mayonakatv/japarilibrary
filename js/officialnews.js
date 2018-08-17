@@ -29,7 +29,8 @@ var officialnews = new Vue({
         { id: 8, href: 'https://twitter.com/kemono_matsuri/status/1027032997151760385', seen: false, remark: defaultValue.remark, text: '【営業中止のお知らせ】本日8/8(水)の営業ですが、台風の接近に伴い終日営業中止とさせて頂きます。ご来店予定だった皆様、大変申し訳ございません。またのご来店心よりお待ちしております。 #けもフレがーでん - 12:25 - 2018年8月8日' },
         { id: 9, href: 'https://twitter.com/kemono_matsuri/status/1028832142044745728', seen: true, remark: defaultValue.remark, text: '直前ですみません…！！ 明日からコースターのキャラクターが追加しま～す！！ なんと、16種もあります…… コラボドリンクでの配布とさせて頂いております。。 皆さん是非キャラクターを当ててみてくださいね～！ #けもフレがーでん - 11:34 - 2018年8月13日' },
         { id: 10, href: 'https://twitter.com/kemono_matsuri/status/1028876678271881216', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでん9月分(土日祝)のチケットは8月17日(金)18:00～販売開始です☆ もう9月の販売です…早いですね… 真夏のけものフレンズがーでんもいいですが、少し涼しくなったけものフレンズがーでんにも来てみてください☆！ <a href="http://r-t.jp/kf-garden2" rel="external">http://r-t.jp/kf-garden2</a> - 14:31 - 2018年8月13日' },
-        { id: 11, href: 'https://twitter.com/kemono_matsuri/status/1029551107062652931', seen: true, remark: defaultValue.remark, text: 'そして！！×100 今日からスタンプも変わってるよー 何のスタンプに変わってるかは来てからのお楽しみなのだー みんなの事待ってるのだー - 11:11 - 2018年8月15日' }
+        { id: 11, href: 'https://twitter.com/kemono_matsuri/status/1029551107062652931', seen: true, remark: defaultValue.remark, text: 'そして！！×100 今日からスタンプも変わってるよー 何のスタンプに変わってるかは来てからのお楽しみなのだー みんなの事待ってるのだー - 11:11 - 2018年8月15日' },
+        { id: 12, href: 'https://twitter.com/kemono_matsuri/status/1030350235036397568', seen: true, remark: defaultValue.remark, text: '★☆かき氷気温割引キャンペーン☆★  8月20日より、かき氷が気温により割引になるキャンペーンを実施！ 31℃は400円、32℃は300円、33℃は200円、34℃で100円… 35℃以上はなんと無料です！！ ※オープン時の気温を基準に決定いたします。 あつ～い夏を乗り越えましょう！！ #けもフレがーでん - 16:06 - 2018年8月17日' }
       ]
     }
   }
