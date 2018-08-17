@@ -38,7 +38,7 @@ var gardengoods = new Vue({
         { id: 3, name: 'フランクフルト', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/frankfurt-min.png', srcparent: 'img/foods/frankfurt.png', icon: defaultValue.internal.icon },
         { id: 4, name: 'セルリアンのたこ焼き', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanTakoyaki-min.png', srcparent: 'img/foods/ceruleanTakoyaki.png', icon: defaultValue.internal.icon },
         { id: 5, name: '肉まん', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenNikuman-min.png', srcparent: 'img/foods/gardenNikuman.png', icon: defaultValue.internal.icon },
-        { id: 6, name: 'セルリアンのフライドチキン（黒）', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/friedChickenBlack-min.png', srcparent: 'img/foods/friedChickenBlack.png', icon: defaultValue.internal.icon },
+        { id: 6, name: 'セルリアンのフライドチキン（黒）', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/friedChickenBlack.png', srcparent: 'img/foods/friedChickenBlack.png', icon: defaultValue.internal.icon },
         { id: 7, name: 'セルリアンのフライドチキン（赤）', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/friedChickenRed-min.png', srcparent: 'img/foods/friedChickenRed.png', icon: defaultValue.internal.icon },
         { id: 8, name: 'Food [各種 300円]', rel: '', alt: 'food', src: 'img/sysimg/utensils-solid.svg', srcparent: '', icon: '' },
         { id: 9, name: 'セルリアンの卵串焼き', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanEgg-min.png', srcparent: 'img/foods/ceruleanEgg.png', icon: defaultValue.internal.icon },
