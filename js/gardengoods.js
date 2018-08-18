@@ -75,14 +75,14 @@ var gardengoods = new Vue({
         { id: 8, name: 'ヤンバルクイナ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/yambarukuina-min.png', srcparent: 'img/coaster/yambarukuina.png', icon: defaultValue.internal.icon },
         { id: 9, name: 'リュウキュウケン', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/ryukyuken-min.png', srcparent: 'img/coaster/ryukyuken.png', icon: defaultValue.internal.icon },
         { id: 10, name: '第二弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-two-solid.svg', srcparent: '', icon: '' },
-        { id: 11, name: 'サーバル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/serval-min.png', srcparent: 'img/coaster/serval.png', icon: defaultValue.internal.icon },
+        { id: 11, name: 'サーバル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/serval-min.png', srcparent: '', icon: '' },
         { id: 12, name: 'アライさん', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/arai-min.png', srcparent: 'img/coaster/arai.png', icon: defaultValue.internal.icon },
         { id: 13, name: 'フェネック', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/fenec-min.png', srcparent: 'img/coaster/fenec.png', icon: defaultValue.internal.icon },
         { id: 14, name: 'プリンセス', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/princess-min.png', srcparent: 'img/coaster/princess.png', icon: defaultValue.internal.icon },
         { id: 15, name: 'ジェーン', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/gentoo-min.png', srcparent: 'img/coaster/gentoo.png', icon: defaultValue.internal.icon },
-        { id: 16, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/iwabi-min.png', srcparent: 'img/coaster/iwabi.png', icon: defaultValue.internal.icon },
+        { id: 16, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/iwabi-min.png', srcparent: '', icon: '' },
         { id: 17, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/koutei-min.png', srcparent: 'img/coaster/koutei.png', icon: defaultValue.internal.icon },
-        { id: 18, name: 'フルル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/fululu-min.png', srcparent: 'img/coaster/fululu.png', icon: defaultValue.internal.icon },
+        { id: 18, name: 'フルル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/fululu-min.png', srcparent: '', icon: '' },
         { id: 19, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/shironagasukujira-min.png', srcparent: 'img/coaster/shironagasukujira.png', icon: defaultValue.internal.icon }
       ],
       kobachiGroceryList: [
