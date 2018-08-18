@@ -54,14 +54,14 @@ var gardengoods = new Vue({
         { id: 19, name: 'PPPのミルクコーヒー', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/PPPMilkCoffee-min.png', srcparent: 'img/foods/PPPMilkCoffee.png', icon: defaultValue.internal.icon },
         { id: 20, name: 'ツチノコのショコララテ', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/tsuchinokoChocolatLatte-min.png', srcparent: 'img/foods/tsuchinokoChocolatLatte.png', icon: defaultValue.internal.icon },
         { id: 21, name: 'リョコウバトのストロベリーカルピス', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/ryokouStrawberryCalpis-min.png', srcparent: 'img/foods/ryokouStrawberryCalpis.png', icon: defaultValue.internal.icon },
+        { id: 29, name: '冷酒（日本酒/紙コップで提供） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/goods/tsuchinokoGlass-min.png', srcparent: 'img/goods/tsuchinokoGlass.png', icon: defaultValue.internal.icon },
         { id: 22, name: 'Desert [各種 500円]', rel: defaultValue.external.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/sysimg/cookie-bite-solid.svg', srcparent: 'img/sysimg/cookie-bite-solid.svg', icon: defaultValue.internal.icon },
         { id: 23, name: 'セルリアンかき氷・赤', rel: '', alt: 'food', title: defaultValue.internal.title, src: '', srcparent: '', icon: '' },
         { id: 24, name: 'セルリアンかき氷・青', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DjcdunWVAAAR87Y.jpg', srcparent: 'https://twitter.com/htktkgt/status/1024320136356843520', icon: '' },
         { id: 25, name: 'セルリアンソフトクリーム', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
         { id: 26, name: 'セルリアン綿あめ', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanWataame-min.png', srcparent: 'img/foods/ceruleanWataame.png', icon: defaultValue.internal.icon },
         { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
-        { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' },
-        { id: 29, name: '冷酒（日本酒/紙コップで提供） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/goods/tsuchinokoGlass-min.png', srcparent: 'img/goods/tsuchinokoGlass.png', icon: defaultValue.internal.icon }
+        { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' }
       ],
       coasterGroceryList: [
         { id: 0, name: '第一弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-one-solid.svg', srcparent: '', icon: '' },
