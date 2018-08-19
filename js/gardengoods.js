@@ -60,8 +60,8 @@ var gardengoods = new Vue({
         { id: 24, name: 'セルリアンかき氷・青', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DjcdunWVAAAR87Y.jpg', srcparent: 'https://twitter.com/htktkgt/status/1024320136356843520', icon: '' },
         { id: 25, name: 'セルリアンソフトクリーム', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
         { id: 26, name: 'セルリアン綿あめ', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanWataame-min.png', srcparent: 'img/foods/ceruleanWataame.png', icon: defaultValue.internal.icon },
-        { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
-        { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' }
+        { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' }
+        //        { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' }
       ],
       coasterGroceryList: [
         { id: 0, name: '第一弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-one-solid.svg', srcparent: '', icon: '' },
@@ -83,7 +83,14 @@ var gardengoods = new Vue({
         { id: 16, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/iwabi-min.png', srcparent: '', icon: '' },
         { id: 17, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/koutei-min.png', srcparent: 'img/coaster/koutei.png', icon: defaultValue.internal.icon },
         { id: 18, name: 'フルル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/fululu-min.png', srcparent: '', icon: '' },
-        { id: 19, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/shironagasukujira-min.png', srcparent: 'img/coaster/shironagasukujira.png', icon: defaultValue.internal.icon }
+        { id: 19, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/shironagasukujira-min.png', srcparent: 'img/coaster/shironagasukujira.png', icon: defaultValue.internal.icon },
+        { id: 20, name: 'オカピ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 21, name: 'タヌキ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 22, name: 'オオフラミンゴ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 23, name: 'クロヒョウ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 24, name: 'ヒツジ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 25, name: 'サーベルタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 26, name: 'ホワイトタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon }
       ],
       kobachiGroceryList: [
         { id: 0, name: 'がーでん２ロゴ (がーでん２)', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DijX1q3VAAARVjA.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1020302641916653568', icon: defaultValue.external.icon },
@@ -100,23 +107,23 @@ var gardengoods = new Vue({
       ],
       shatekiGroceryList: [
         { id: 0, name: '吉崎観音コンセプトデザイン柄', rel: '', alt: '', title: '', src: 'img/sysimg/map-marked-alt-solid.svg', srcparent: '', icon: '' },
-        { id: 1, name: 'サーバル', rel: defaultValue.rel, alt: '', title: defaultValue.internal.title, src: 'img/shateki/serval-min.png', srcparent: 'img/shateki/serval.png', icon: defaultValue.internal.icon },
-        { id: 2, name: 'アライさん', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
+        { id: 1, name: 'サーバル', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/serval-min.png', srcparent: 'img/shateki/serval.png', icon: defaultValue.internal.icon },
+        { id: 2, name: 'アライさん', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/arai-min.png', srcparent: 'img/shateki/arai.png', icon: defaultValue.internal.icon },
         { id: 3, name: 'フェネック', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/fenec-min.png', srcparent: 'img/shateki/fenec.png', icon: defaultValue.internal.icon },
         { id: 4, name: 'プリンセス', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/princess-min.png', srcparent: 'img/shateki/princess.png', icon: defaultValue.internal.icon },
-        { id: 5, name: 'ジェーン', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 6, name: 'イワビー', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 7, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/koutei-min.png', srcparent: 'img/shateki/koutei.png', icon: defaultValue.internal.icon },
-        { id: 8, name: 'フルル', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 9, name: 'シーサーバル・レフティ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
+        { id: 5, name: 'ジェーン', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/gentoo-min.png', srcparent: 'img/shateki/gentoo.png', icon: defaultValue.internal.icon },
+        { id: 6, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/iwabi-min.png', srcparent: 'img/shateki/iwabi.png', icon: defaultValue.internal.icon },
+        { id: 7, name: 'コウテイ', rel: defaultValue.internal.rel.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/koutei-min.png', srcparent: 'img/shateki/koutei.png', icon: defaultValue.internal.icon },
+        { id: 8, name: 'フルル', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/fululu-min.png', srcparent: 'img/shateki/fululu.png', icon: defaultValue.internal.icon },
+        { id: 9, name: 'シーサーバル・レフティ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/shisarvallefty-min.png', srcparent: 'img/shateki/shisarvallefty.png', icon: defaultValue.internal.icon },
         { id: 10, name: 'シーサーバル・ライト', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/shisarvalright-min.png', srcparent: 'img/shateki/shisarvalright.png', icon: defaultValue.internal.icon },
-        { id: 11, name: 'シーサー・レフティ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
+        { id: 11, name: 'シーサー・レフティ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/shisalefty-min.png', srcparent: 'img/shateki/shisalefty.png', icon: defaultValue.internal.icon },
         { id: 12, name: 'シーサー・ライト', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/shisaright-min.png', srcparent: 'img/shateki/shisaright.png', icon: defaultValue.internal.icon },
-        { id: 13, name: 'ヤンバルクイナ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 14, name: 'ダイトウオオコウモリ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 15, name: 'イリオモテヤマネコ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 16, name: 'ハブ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
-        { id: 17, name: 'リュウキュウケン', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
+        { id: 13, name: 'ヤンバルクイナ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/yambaru-min.png', srcparent: 'img/shateki/yambaru.png', icon: defaultValue.internal.icon },
+        { id: 14, name: 'ダイトウオオコウモリ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/daitookomori-min.png', srcparent: 'img/shateki/daitookomori.png', icon: defaultValue.internal.icon },
+        { id: 15, name: 'イリオモテヤマネコ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/iriomoteyamaneko-min.png', srcparent: 'img/shateki/iriomoteyamaneko.png', icon: defaultValue.internal.icon },
+        { id: 16, name: 'ハブ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/habu-min.png', srcparent: 'img/shateki/habu.png', icon: defaultValue.internal.icon },
+        { id: 17, name: 'リュウキュウケン', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/ryukyuken-min.png', srcparent: 'img/shateki/ryukyuken.png', icon: defaultValue.internal.icon },
 
         { id: 18, name: 'パビリオン柄', rel: '', alt: '', title: '', src: 'img/sysimg/fort-awesome-brands.svg', srcparent: '', icon: '' },
         { id: 19, name: 'サーバル', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },

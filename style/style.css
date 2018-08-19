@@ -203,19 +203,19 @@ ol.countlist li:before {
 .flex-container::after{
   content:"";
   display: block;
-  width:30%;
+  width:24%;
 }
   .flex-container .flex-item {
     margin: .24em;
     align-self: flex-end;
-    flex-basis: 30%;
+    flex-basis: 24%;
   }
   .flex-container .flex-item figure {
     width: 100%;
   }
 
   figure {
-    width: 360px;
+    width: 280px;
     max-width: 90vw;
     margin: .5em 0;
     position: relative;
