@@ -56,12 +56,13 @@ h1 {
   font-size: 1.75em;
   vertical-align: middle;
 }
-h4 {
+h2 {
   padding-left: .32em;
   border-left: 8px solid rgb(0, 162, 255);
   border-bottom: 2px solid rgb(0, 162, 255);
+  font-size:1.75em;
 }
-h4 span {
+h2 span {
   font-size: .5em;
 }
 section {

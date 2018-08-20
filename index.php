@@ -6,7 +6,7 @@
     </div>
 
     <section id="sect-about" style="margin-bottom: 2em;">
-      <h4>けもフレがーでんとは？</h4>
+      <h2>けもフレがーでんとは？</h2>
       <!--p class="red white-text center-align">編集中</p-->
       <div class="center-align quote-text">
         <p>「けものフレンズ」の屋外フードパーク</p>
@@ -46,16 +46,9 @@
       </div>
     </div>
 
-    <div class="card">
-      <p class="center-align">
-        当ページはPC環境での閲覧を想定しています。スマートフォン、iPhone等の対応はしばらくお待ちください。
-        <a href="#sect-env">◉推奨環境</a>
-      </p>
-    </div>
-
     <div class="addLazyloadCss">
       <section id="sect-map">
-        <h4>場所と行き方、入場券</h4>
+        <h2>場所と行き方、入場券</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.887714421604!2d139.71097491524054!3d35.72897993495928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d687600e97d%3A0xc0be4490db0cb6e6!2z44GK56Wt44Gg44KI77yB44GR44KC44Gu44OV44Os44Oz44K644GM44O844Gn44KT!5e0!3m2!1sja!2sjp!4v1533069980471"
           width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         <h5>場所</h5>
@@ -208,7 +201,7 @@
       </section>
 
       <section id="sect-faq">
-        <h4>よくありそうな質問 / FAQ</h4>
+        <h2>よくありそうな質問 / FAQ</h2>
         <div class="faq-container">
           <h5 class="red-text bold center-align" style="margin: .5em;padding: .5em;border:1px dotted red;">ここを見る前に
             <a href="http://matsuri-kf-garden.jp/#notes" rel="external">公式ページの注意事項</a>をしっかり読んでね</h5>
@@ -303,7 +296,7 @@
       </section>
 
       <section id="sect-first">
-        <h4>初めての方へ / 楽しみ方のご提案</h4>
+        <h2>初めての方へ / 楽しみ方のご提案</h2>
         <h5>どう転んでも楽しめる方プラン</h5>
         <p class="red-text bold center-align">5,000円握りしめて行けばOK！入場料とジョッキ代だよ！フードチケット1,000円ついてるしへーきへーき！
           <br />射的もしたいしグッズも買いたい？ なら倍の10,000円だ！
@@ -537,7 +530,7 @@
       </section>
 
       <section id="sect-numberedTickets">
-        <h4>当日整理券および待機列</h4>
+        <h2>当日整理券および待機列</h2>
         <h5>整理券配布</h5>
         <ul class="dot-list">
           <li>（平日）16時30分より蕎麦屋横で配布開始</li>
@@ -577,7 +570,7 @@
       </section>
 
       <section id="sect-100">
-        <h4>けもフレがーでんを100倍楽しむための補足情報</h4>
+        <h2>けもフレがーでんを100倍楽しむための補足情報</h2>
         <section id="sect-present">
           <h5>入場時に配布しているもの</h5>
           <div class="flex-container">
@@ -835,7 +828,7 @@
 
       <div id="gardengoods">
         <section id="sect-gardengoods">
-          <h4>コラボフード / 景品 / グッズ</h4>
+          <h2>コラボフード / 景品 / グッズ</h2>
           <section id="sect-foods">
             <h5>フードメニュー</h5>
             <p>
@@ -913,7 +906,7 @@
         </section>
 
         <section id="sect-facility">
-          <h4>施設関連</h4>
+          <h2>施設関連</h2>
           <section id="sect-games">
             <h5>ガチャガチャとクレーンゲーム</h5>
             <div class="flex-container">
@@ -1039,7 +1032,7 @@
       <!--[end]gardengoods-->
 
       <section id="sect-notice">
-        <h4>諸注意</h4>
+        <h2>諸注意</h2>
         <div id="notice">
           <ol>
             <notice-item v-for="item in noticeGroceryList" v-bind:todo="item" v-html="item.text"></notice-item>
@@ -1081,7 +1074,7 @@
       </section>
 
       <section id="sect-ads" class="Ads">
-        <h4>がーでんのお供にどうぞ（宣伝）</h4>
+        <h2>がーでんのお供にどうぞ（宣伝）</h2>
         <p>がーでんに持って行ってみたり聞いたりすると楽しそうな公式商品をいくつかピックアップ！
           <br />こちらも定期的に更新します。
           <br />こちらのセクションはAdBlock等の広告非表示プラグインで表示されなくなったり表示されてたりします（未調整）。</p>
@@ -1143,7 +1136,7 @@
         </div>
 
         <section id="sect-siteinfo">
-          <h4>本サイト、およびその情報について</h4>
+          <h2>本サイト、およびその情報について</h2>
           <h5 class="center-align orange darken-2 white-text bold" style="padding:1em;">作成理念「初めてでも不安なくがーでんへゆく為に」</h5>
           <!-- <p class="black center-align bold" style="padding: 1em;overflow: hidden;position: relative;">
             <i class="far fa-square yellow-text darken-3" style="position: absolute;left:5%;"></i>
@@ -1245,6 +1238,7 @@
             <p>
               しかしない以上、その役目は誰かがやらねばならないと思いましたし、
               <span class="bold">そういった文句を再生産することなく消費するだけの人間が言うべきではない。</span>その矜恃と相反しないためにわたしは今回、このページを作成した次第です。
+              <br />なお、この矜恃に関してはあなたや第三者が同様に思う必要は全くないことは明記しておきます。ただし、この「再生産」には、例えば今回の問題で言うならば「過去のツイートを掘り返して積極的にRTする」などの比較的簡単な活動であっても含まれると考えています。得意なことは違えど、やれることはやろうという考えです。
               <br />
               <br />深夜帯アニメというのは時間の関係上、見る人間はある程度年齢のいった方ですし、１クールだけのアニメが多い以上、コミュニティは放送当時の人がほとんどでしょう。
               <br />しかし、わたしはけものフレンズにドラえもんや、ポケモン、プリキュアといった作品になってもらいたいと思っています。
@@ -1288,15 +1282,7 @@
           </a>
         </section>
 
-        <section id="sect-specialthanks">
-          <h5>謝辞 / Special Thanks</h5>
-          <div id="spthx">
-            <p>この場を借りて、情報・資料・素材提供をいただいた方にお礼を申し上げます。（敬称略・順不同）</p>
-            <ul style="text-indent:1em;">
-              <thanks-item v-for="item in spthxGroceryList" v-bind:todo="item"></thanks-item>
-            </ul>
-          </div>
-        </section>
+        <?php require_once 'specialthanks.php'; ?>
       </section>
 
       </div>

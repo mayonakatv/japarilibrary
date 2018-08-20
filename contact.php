@@ -1,8 +1,8 @@
 <?php
 require_once 'header.php';
 ?>
-<h2 style="margin: .4em 0;">当ウェブサイトへのお問い合わせ</h2>
 <section id="sect-contact" style="width:100%;">
+<h2 style="margin: .4em 0;">当ウェブサイトへのお問い合わせ</h2>
   <p>当ページは
     <a href="https://twitter.com/htktkgt" rel="external">ななみ隣（りん）@htktkgt</a>が作成しています。
     <br />お問い合わせ、ご意見、ご感想などは以下のフォームよりお願いいたします。
