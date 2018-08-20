@@ -1,220 +1,6 @@
-<!doctype html>
-<html>
-
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-  <meta name="author" content="ななみ隣">
-
-  <meta property="og:title" content="＃がーでんいんふぉ@じゃぱりとしょかん" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://kemono-matsuri.japarilibrary.com" />
-  <meta property="og:image" content="https://kemono-matsuri.japarilibrary.com/ogp.jpg" />
-  <meta property="og:site_name" content="じゃぱりとしょかん" />
-  <meta property="og:description" content="けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@htktkgt" />
-  <meta name="twitter:player" content="@htktkgt" />
-  <meta name="twitter:description" content="けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！">
-
-  <meta name="description" content="けものフレンズの有志が作成するジャパリパークのオンライン図書館。けものフレンズ公式イベントである、けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！"
-  />
-  <meta name="keywords" content="けものフレンズ, けもフレ, けもフレがーでん, がーでん, ビアガーデン、まとめ, がーでんいんふぉ, #がーでんいんふぉ" />
-
-  <title>#がーでんいんふぉ | じゃぱりとしょかん</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-    crossorigin="anonymous" media="screen,projection">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <link rel="stylesheet" href="style/style.css">
-  <!--Vue.js導入-->
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-  <!--遅延読み込み(本体が下の順番守れ！)-->
-  <script type="text/javascript" src="js/addLazyloadCss.js"></script>
-  <script type="text/javascript" src="js/addDomain.js"></script>
-  <script type="text/javascript" src="js/lazysizes.min.js"></script>
-  <script type="text/javascript" src="js/externalLinks.js"></script>
-  <script type="text/javascript" src="js/kome-red.js"></script>
-  <script type="text/javascript" src="js/myScript.js"></script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script type="text/javascript" src="js/ga.js" async></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123516140-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-123516140-1');
-  </script>
-</head>
-
-<body id="top" class="yellow lighten-5">
-  <!--[cf,]
-    flexbox
-    http://blog.webcreativepark.net/2016/08/15-125202.html
-    flex-box
-    https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet
-    jQuery slideToggle
-    https://blow-in.net/blog/entry-1679.html
-    Materialize dropdown
-    https://stackoverflow.com/questions/35951350/materialize-dropdown-and-sidenav-doesnt-work
-    top to page dont using
-    https://unskilled.site/jquerypagetopfunction/
-  -->
-
-  <!--マイルストーン
-  ・リストバンドの種類（色）　時間の情報は載せない
-  
-  -->
-  <div class="container">
-    <header>
-      <ul id="dropdown1" class="dropdown-content">
-        <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
-      </ul>
-      <ul id="mobileSide" class="sidenav">
-        <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
-      </ul>
-      <div class="navbar-fixed">
-        <nav class="nav-extended">
-          <div class="nav-wrapper">
-            <a href="/" class="brand-logo">
-              <img src="/favicon.ico" alt="Bland-logo" />
-            </a>
-            <ul class="right hide-on-med-and-down">
-              <li>
-                <h1 style="margin: 0;">
-                  <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
-                </h1>
-              </li>
-              <li>
-                <a class="dropdown-trigger" data-target="dropdown1" style="cursor: pointer;">
-                  <i class="fas fa-bars"></i>
-                </a>
-              </li>
-            </ul>
-            <a class="sidenav-trigger" data-target="mobileSide" style="cursor: pointer;">
-              <i class="fas fa-bars"></i>
-            </a>
-          </div>
-          <div class="tablist-container hide-on-med-and-down">
-            <ul id="menu">
-              <li>
-                <a href="#sect-officialNews">ニュース</a>
-              </li>
-              <li>
-                <a href="#sect-about">がーでん</a>
-              </li>
-              <li>
-                <a href="#sect-map">地図</a>
-                <ul>
-                  <li>
-                    <a href="#sect-way">行き方</a>
-                  </li>
-                  <li>
-                    <a href="#sect-admissionTicket">入場券</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#sect-faq">よくある質問</a>
-              </li>
-              <li>
-                <a href="#sect-first">初参加の方へ</a>
-              </li>
-              <li>
-                <a href="#sect-100">もっと楽しむ</a>
-                <ul>
-                  <li>
-                    <a href="#sect-present">配布物</a>
-                  </li>
-                  <li>
-                    <a href="#sect-tokuten">特典</a>
-                  </li>
-                  <li>
-                    <a href="#sect-19">延長</a>
-                  </li>
-                  <li>
-                    <a href="#sect-canceled">開催中止</a>
-                  </li>
-                  <li>
-                    <a href="#sect-stampcard">スタンプカード</a>
-                  </li>
-                  <li>
-                    <a href="#sect-stamprally">スタンプラリー</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#sect-foods">フード/物販等</a>
-                <ul>
-                  <li>
-                    <a href="#sect-foods">コラボフード</a>
-                  </li>
-                  <li>
-                    <a href="#sect-coaster">コースター</a>
-                  </li>
-                  <li>
-                    <a href="#sect-kobachi">小鉢</a>
-                  </li>
-                  <li>
-                    <a href="#sect-shateki">射的景品</a>
-                  </li>
-                  <li>
-                    <a href="#sect-goods">物販商品</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#sect-facility">施設関連</a>
-                <ul>
-                  <li>
-                    <a href="#sect-games">クレーン&amp;ガチャ</a>
-                  </li>
-                  <li>
-                    <a href="#sect-japaman">ジャパまん投げ</a>
-                  </li>
-                  <li>
-                    <a href="#sect-shatekiGame">射的</a>
-                  </li>
-                  <li>
-                    <a href="#sect-ornaments">装飾</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#sect-siteinfo">サイト情報</a>
-                <ul>
-                  <li>
-                    <a href="#sect-crawling">情報収集手法</a>
-                  </li>
-                  <li>
-                    <a href="#sect-reliability">正確性</a>
-                  </li>
-                  <li>
-                    <a href="#sect-research">けもフレ調査</a>
-                  </li>
-                  <li>
-                    <a href="#sect-reason">作成理由</a>
-                  </li>
-                  <li>
-                    <a href="#sect-contact">お問い合わせ</a>
-                  </li>
-                  <li>
-                    <a href="#sect-specialthanks">謝辞</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <!-- <h5 class="center-align red white-text darken-2 doujin">このサイトは非公式です。関係各所への問い合わせはご遠慮ください</h5> -->
-
+<?php
+  require_once 'header.php';
+?>
     <div id="carousel" class="carousel carousel-slider">
       <carousel-item v-for="item in carouselGroceryList" v-bind:todo="item" v-bind:target="carousel"></carousel-item>
     </div>
@@ -1113,7 +899,7 @@
               <a href="https://japaricafe.shop/" rel="external" title="けもフレカフェショップ">けものフレンズカフェショップ</a> -->
             </p>
 
-            <a href="goods.html" title="物販商品">
+            <a href="goods.php" title="物販商品">
               <figure>
                 <img src="img/glass/comparison.png" alt="物販商品画像" class="responsive-img" />
                 <figcaption class="center-align">
@@ -1495,7 +1281,7 @@
           <br />いたずら目的と思われる問い合わせに関しては、法的な措置も取らせていただくことがあります。
           <br />なお、いただいた情報はいかなる理由でも公開いたしませんが、公開の許可をいただいた場合はその限りでありません。
           <br />
-          <a href="contact.html" rel="nofollow" title="contactform">
+          <a href="contact.php" rel="nofollow" title="contactform">
             <button class="btn btn-large">
               <i class="fab fa-wpforms"></i>
               お問い合わせページへ </button>
@@ -1515,30 +1301,5 @@
 
       </div>
       <!--[end]lazyload-->
-
-      <footer class="page-footer">
-        <div class="footer-copyright">
-          <div class="container">
-            &copy;opyright 2018 mayonaka.tv and japarilibrary.com all rights reserved.
-            <br />Editor in chief and Contact :
-            <a href="https://twitter.com/htktkgt" rel="external" title="Twitter">ななみ隣@htktkgt</a>. DO NOT USE for curation sites.
-          </div>
-        </div>
-      </footer>
-
-      <p class="pagetop">
-        <a href="#top" data-lb-orig-href="#top">
-          <i class="fas fa-sort-up"></i>
-        </a>
-      </p>
-
-      <script type="text/javascript" src="js/dropdown.js"></script>
-      <script type="text/javascript" src="js/officialnews.js"></script>
-      <script type="text/javascript" src="js/carousel.js"></script>
-      <script type="text/javascript" src="js/gardengoods.js"></script>
-      <script type="text/javascript" src="js/notice.js"></script>
-      <script type="text/javascript" src="js/spthx.js"></script>
-
-      <!--代替画像表示_一番最後に実行のこと！-->
-      <script type="text/javascript" src="js/alternateImage.js"></script>
-    </div>
+<?php
+require_once 'footer.php';

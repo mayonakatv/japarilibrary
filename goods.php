@@ -1,74 +1,6 @@
-<!doctype html>
-<html>
-
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-  <meta name="author" content="ななみ隣">
-
-  <meta property="og:title" content="＃がーでんいんふぉ@japarilibrary.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://kemono-matsuri.japarilibrary.com" />
-  <meta property="og:image" content="https://kemono-matsuri.japarilibrary.com/ogp.jpg" />
-  <meta property="og:site_name" content="じゃぱりとしょかん" />
-  <meta property="og:description" content="けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@htktkgt" />
-  <meta name="twitter:player" content="@htktkgt" />
-  <meta name="twitter:description" content="けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！">
-
-  <meta name="description" content="けものフレンズ公式イベントである、けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！" />
-
-  <title>物販情報 | じゃぱりとしょかん</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-    crossorigin="anonymous" media="screen,projection">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <link rel="stylesheet" href="style/style.css">
-  <!--Vue.js導入-->
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-  <!--遅延読み込み(本体が下の順番守れ！)-->
-  <script type="text/javascript" src="js/addLazyloadCss.js"></script>
-  <script type="text/javascript" src="js/addDomain.js"></script>
-  <script type="text/javascript" src="js/lazysizes.min.js"></script>
-  <script type="text/javascript" src="js/externalLinks.js"></script>
-  <script type="text/javascript" src="js/kome-red.js"></script>
-  <script type="text/javascript" src="js/myScript.js"></script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script type="text/javascript" src="js/ga.js" async></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123516140-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-123516140-1');
-  </script>
-</head>
-
-<body id="top" class="yellow lighten-5">
-  <div class="container">
-    <header>
-      <nav>
-        <div class="nav-wrapper">
-          <a href="/" class="brand-logo">
-            <img src="/favicon.ico" alt="Bland-logo" />
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <h1 style="margin: 0;">
-                <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
-              </h1>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <!-- <h5 class="center-align red white-text darken-2 doujin">このサイトは非公式です。関係各所への問い合わせはご遠慮ください</h5> -->
+<?php
+require_once 'header.php';
+?>
 
     <div class="card">
       <p class="center-align">当ページはPC環境での閲覧を想定しています。スマートフォン、iPhone等の対応はしばらくお待ちください。</p>
@@ -252,7 +184,9 @@
             </li>
             <li>プリンセス</li>
             <li>ジェーン</li>
-            <li>イワビー</li>
+            <li>イワビー
+              <span class="red-text bold">※売り切れ中(入荷未定)</span>
+            </li>
             <li>コウテイ</li>
             <li>フルル</li>
           </ul>
@@ -352,29 +286,5 @@
       </button>
     </a>
 
-    <footer class="page-footer">
-      <div class="footer-copyright">
-        <div class="container">
-          &copy;opyright 2018 mayonaka.tv and japarilibrary.com all rights reserved.
-          <br />Editor in chief and Contact :
-          <a href="https://twitter.com/htktkgt" rel="external" title="Twitter">ななみ隣@htktkgt</a>. DO NOT USE for curation sites.
-        </div>
-      </div>
-    </footer>
-
-    <p class="pagetop">
-      <a href="#top" data-lb-orig-href="#top">
-        <i class="fas fa-sort-up"></i>
-      </a>
-    </p>
-
-    <script type="text/javascript" src="js/dropdown.js"></script>
-    <script type="text/javascript" src="js/officialnews.js"></script>
-    <script type="text/javascript" src="js/carousel.js"></script>
-    <script type="text/javascript" src="js/gardengoods.js"></script>
-    <script type="text/javascript" src="js/notice.js"></script>
-    <script type="text/javascript" src="js/spthx.js"></script>
-
-    <!--代替画像表示_一番最後に実行のこと！-->
-    <script type="text/javascript" src="js/alternateImage.js"></script>
-  </div>
+<?php
+require_once 'footer.php';
