@@ -93,6 +93,7 @@ if($title === '#がーでんいんふぉ'){
   <ul id="mobileSide" class="sidenav">
     <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
   </ul>
+<?php }?>
   <div class="navbar-fixed">
     <nav class="nav-extended">
       <div class="nav-wrapper">
@@ -105,16 +106,21 @@ if($title === '#がーでんいんふぉ'){
               <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
             </h1>
           </li>
+<?php if($title === '#がーでんいんふぉ') { ?>
           <li>
             <a class="dropdown-trigger" data-target="dropdown1" style="cursor: pointer;">
               <i class="fas fa-bars"></i>
             </a>
           </li>
+<?php } ?>
         </ul>
+<?php if($title === '#がーでんいんふぉ') { ?>
         <a class="sidenav-trigger" data-target="mobileSide" style="cursor: pointer;">
           <i class="fas fa-bars"></i>
         </a>
+<?php } ?>
       </div>
+<?php if($title === '#がーでんいんふぉ') { ?>
       <div class="tablist-container hide-on-med-and-down">
         <ul id="menu">
           <li>
@@ -225,28 +231,29 @@ if($title === '#がーでんいんふぉ'){
           </li>
         </ul>
       </div>
+<?php } ?>
     </nav>
   </div>
 <?php
-}else{
-?>
-<div class="navbar-fixed" style="min-height: 64px;">
-  <nav class="nav-extended">
-    <div class="nav-wrapper">
-      <a href="/" class="brand-logo">
-        <img src="/favicon.ico" alt="Bland-logo" />
-      </a>
-      <ul class="right hide-on-med-and-down">
-        <li>
-          <h1 style="margin: 0;">
-            <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
-          </h1>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
-<?php
-}
+// }else{
+
+// <div class="navbar-fixed" style="min-height: 64px;">
+//   <nav class="nav-extended">
+//     <div class="nav-wrapper">
+//       <a href="/" class="brand-logo">
+//         <img src="/favicon.ico" alt="Bland-logo" />
+//       </a>
+//       <ul class="right hide-on-med-and-down">
+//         <li>
+//           <h1 style="margin: 0;">
+//             <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
+//           </h1>
+//         </li>
+//       </ul>
+//     </div>
+//   </nav>
+// </div>
+
+// }
 ?>
 </header>
