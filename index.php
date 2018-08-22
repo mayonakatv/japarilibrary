@@ -1,9 +1,24 @@
 <?php
-  require_once 'header.php';
+  require 'header.php';
 ?>
     <div id="carousel" class="carousel carousel-slider">
       <carousel-item v-for="item in carouselGroceryList" v-bind:todo="item" v-bind:target="carousel"></carousel-item>
     </div>
+
+    <section id="sect-about" style="margin-bottom: 2em;">
+      <h2>けもフレがーでんとは？</h2>
+      <div class="center-align quote-text">
+        <p>「けものフレンズ」の屋外フードパーク</p>
+        <p>「お祭だよ！けものフレンズがーでん2」は、屋台が並ぶお祭りスタイルで</p>
+        <p>オリジナルフードやドリンクが楽しむことができます。</p>
+        <p>さらに店内には「けものフレンズ」の 世界観が満載！</p>
+        <p class="right-align">---けもフレがーでんHPより引用</p>
+
+        <h6 class="bold">けものフレンズ　×　ビアガーデン</h6>
+        <p>けものフレンズというメディアミックス作品の新しい形</p>
+        <p>食べるもよし、飲むでもよし、仲間と語らうのもよしの新感覚イベント！</p>
+      </div>
+    </section>
 
     <div id="sect-officialNews" class="card yellow darken-2">
       <div class="card-content white-text">
@@ -1042,10 +1057,10 @@
           </a>
         </section>
 
-        <?php require_once 'specialthanks.html'; ?>
+        <?php require 'specialthanks.html'; ?>
       </section>
 
       </div>
       <!--[end]lazyload-->
 <?php
-require_once 'footer.php';
+require 'footer.php';

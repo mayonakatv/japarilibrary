@@ -32,21 +32,6 @@ $(function () {
   }
 });
 
-//https://qiita.com/Takuya_Kouyama/items/b815eb5e1f85d819b4d8
-//http://cgsc.info/programming/20151222_fixed-header_scroll
-// #にダブルクォーテーションが必要
-$(function () {
-  $('a[href^="#"]').click(function () {
-    var speed = 400;
-    var href = $(this).attr("href");
-    var target = $(href == "#" || href == "" ? 'html' : href);
-    var headerHeight = 140; //固定ヘッダーの高さ
-    var position = target.offset().top - headerHeight; //ターゲットの座標からヘッダの高さ分引く
-    $('body,html').animate({ scrollTop: position }, speed, 'swing');
-    return false;
-  });
-});
-
 $(document).ready(function () {
   var pagetop = $('.pagetop');
   $(window).scroll(function () {

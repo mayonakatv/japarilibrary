@@ -13,7 +13,8 @@ class TitlePush {
   }
 
   public function titlePush(){
-    $t = '';
+    $t      = '';
+    $height = '64';
     if(preg_match('/goods/', $this->uri)){
       $t = $this->titleArray['goods'];
     }elseif(preg_match('/contact/', $this->uri)){
@@ -22,12 +23,15 @@ class TitlePush {
       $t = $this->titleArray['first'];
     }else{
       $t = $this->titleArray['top'];
+      $height = '140';
     }
-    return $t;
+    return array($t, $height);
   }
 }
-$obj = new TitlePush();
-$title = $obj->titlePush();
+$obj         = new TitlePush();
+$returnArray = $obj->titlePush();
+$title       = $returnArray[0];
+$height      = $returnArray[1];
 ?>
 
 <!doctype html>
@@ -70,6 +74,23 @@ $title = $obj->titlePush();
   <script type="text/javascript" src="js/externalLinks.js"></script>
   <script type="text/javascript" src="js/kome-red.js"></script>
   <script type="text/javascript" src="js/myScript.js"></script>
+  <script>
+    //https://qiita.com/Takuya_Kouyama/items/b815eb5e1f85d819b4d8
+    //http://cgsc.info/programming/20151222_fixed-header_scroll
+    // #にダブルクォーテーションが必要
+    $(function () {
+      $('a[href^="#"]').click(function () {
+        var speed = 400;
+        var href = $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var headerHeight = <?php echo $height; ?>; //固定ヘッダーの高さ
+        var position = target.offset().top - headerHeight; //ターゲットの座標からヘッダの高さ分引く
+        $('body,html').animate({ scrollTop: position }, speed, 'swing');
+        return false;
+      });
+    });
+  </script>
+
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script type="text/javascript" src="js/ga.js" async></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -97,7 +118,7 @@ if($title === '#がーでんいんふぉ'){
     <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
   </ul>
 <?php }?>
-  <div class="navbar-fixed">
+  <div class="navbar-fixed" <?php if($title !=='#がーでんいんふぉ'){echo "style='min-height:64px;'";}; ?>>
     <nav class="nav-extended">
       <div class="nav-wrapper">
         <a href="/" class="brand-logo">
