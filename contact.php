@@ -4,9 +4,9 @@ require 'header.php';
 require 'contents/contact.html'
 ?>
 
-<div class="pagenation" style="margin: 1em 0;">
-  <a href="/" rel="nofollow">
-    <button class="btn btn-large">トップページへ戻る</button>
+<div class="pagenation">
+  <a href="/" rel="nofollow" class="btn btn-large">
+    <i class="fas fa-home"></i> トップページへ戻る
   </a>
 </div>
 

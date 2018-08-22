@@ -17,7 +17,7 @@ var dd = new Vue({
       { id: 3, href: '#sect-way', title: '行き方' },
       { id: 4, href: '#sect-admissionTicket', title: '入場券' },
       { id: 5, href: '#sect-faq', title: 'よくある質問' },
-      { id: 6, href: '#sect-first', title: '初めての方へ' },
+      { id: 6, href: 'firstEntry.php', title: '初めての方へ' },
       { id: 7, href: '#sect-numberedTickets', title: '当日整理券' },
       { id: 8, href: '#sect-100', title: '100倍楽しむ！' },
       { id: 9, href: '#sect-foods', title: 'フード' },
@@ -30,11 +30,7 @@ var dd = new Vue({
       { id: 16, href: '#sect-ornament', title: '装飾' },
       { id: 17, href: '#sect-shatekiGame', title: '射的' },
       { id: 18, href: '#sect-notice', title: '諸注意' },
-      { id: 19, href: '#sect-siteinfo', title: '本情報について' },
-      { id: 20, href: '#sect-research', title: '調査フォーム' },
-      { id: 21, href: '#sect-reason', title: '作成理由' },
-      { id: 22, href: '#sect-contact', title: 'お問い合わせ' },
-      { id: 23, href: '#sect-specialthanks', title: '謝辞' }
+      { id: 19, href: 'siteInfo.php', title: 'サイトについて' },
     ]
   }
 })
@@ -48,7 +44,7 @@ var sidenav = new Vue({
       { id: 3, href: '#sect-way', title: '行き方' },
       { id: 4, href: '#sect-admissionTicket', title: '入場券' },
       { id: 5, href: '#sect-faq', title: 'よくある質問' },
-      { id: 6, href: '#sect-first', title: '初めての方へ' },
+      { id: 6, href: 'firstEntry.php', title: '初めての方へ' },
       { id: 7, href: '#sect-numberedTickets', title: '当日整理券' },
       { id: 8, href: '#sect-100', title: '100倍楽しむ！' },
       { id: 9, href: '#sect-foods', title: 'フード' },
@@ -61,11 +57,7 @@ var sidenav = new Vue({
       { id: 16, href: '#sect-ornament', title: '装飾' },
       { id: 17, href: '#sect-shatekiGame', title: '射的' },
       { id: 18, href: '#sect-notice', title: '諸注意' },
-      { id: 19, href: '#sect-siteinfo', title: '本情報について' },
-      { id: 20, href: '#sect-research', title: '調査フォーム' },
-      { id: 21, href: '#sect-reason', title: '作成理由' },
-      { id: 22, href: '#sect-contact', title: 'お問い合わせ' },
-      { id: 23, href: '#sect-specialthanks', title: '謝辞' }
+      { id: 19, href: 'siteInfo.php', title: 'サイトについて' },
     ]
   }
 })

@@ -4,7 +4,8 @@ class TitlePush {
     'top'     => '#がーでんいんふぉ',
     'goods'   => '物販情報',
     'contact' => 'お問い合わせ',
-    'first'   => '初参加の方へ'
+    'first'   => '初参加の方へ',
+    'info'    => '本サイトについて'
   );
 
   public  $uri;
@@ -21,6 +22,8 @@ class TitlePush {
       $t = $this->titleArray['contact'];
     }elseif(preg_match('/firstEntry/', $this->uri)){
       $t = $this->titleArray['first'];
+    }elseif(preg_match('/siteInfo/', $this->uri)){
+      $t = $this->titleArray['info'];
     }else{
       $t = $this->titleArray['top'];
       $height = '140';
@@ -231,27 +234,7 @@ if($title === '#がーでんいんふぉ'){
             </ul>
           </li>
           <li>
-            <a href="#sect-siteinfo">サイト情報</a>
-            <ul>
-              <li>
-                <a href="#sect-crawling">情報収集手法</a>
-              </li>
-              <li>
-                <a href="#sect-reliability">正確性</a>
-              </li>
-              <li>
-                <a href="#sect-research">けもフレ調査</a>
-              </li>
-              <li>
-                <a href="#sect-reason">作成理由</a>
-              </li>
-              <li>
-                <a href="#sect-contact">お問い合わせ</a>
-              </li>
-              <li>
-                <a href="#sect-specialthanks">謝辞</a>
-              </li>
-            </ul>
+            <a href="siteInfo.php">サイト情報</a>
           </li>
         </ul>
       </div>

@@ -5,11 +5,9 @@ require 'contents/goods.html';
 require 'contents/specialthanks.html';
 ?>
 <div class="pagenation">
-<a href="/" title="back to top">
-  <button class="btn btn-large">
+  <a href="/" title="back to top" class="btn btn-large">
     <i class="fas fa-home"></i> トップページへ戻る
-  </button>
-</a>
+  </a>
 </div>
 <?php
 require 'footer.php';
