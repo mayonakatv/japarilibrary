@@ -168,7 +168,7 @@
             <div class="flex-item">
               <figure>
                 <img src="img/other/exit40-min.png" alt="40番出口" />
-                <figcaption>40番出口と楽園タウン入り口
+                <figcaption>40番出口と楽園タウン入り口（地下）
                   <a href="img/other/exit40.png" title="100%" rel="nofollow">
                     <i class="fas fa-expand-arrows-alt"></i>
                   </a>
@@ -178,7 +178,7 @@
             <div class="flex-item">
               <figure>
                 <img src="img/other/exit40_2-min.png" alt="40番出口" />
-                <figcaption>40番出口と楽園タウン入り口
+                <figcaption>40番出口と楽園タウン入り口（地上）
                   <a href="img/other/exit40_2.png" title="100%" rel="nofollow">
                     <i class="fas fa-expand-arrows-alt"></i>
                   </a>
@@ -195,6 +195,7 @@
             <br />
             <span class="red-text">※入場時に渡されるお通しの入った小鉢は
               <span class="kenten">もらえます</span>。忘れずに持ち帰ってね。</span>
+              <br />※今期はジョッキ、グラスは<span class="kenten">もらえません</span>。物販コーナーでの購入あるいはレンタルジョッキとなります。マイジョッキ・マイグラスの持ち込みも可能です。
           </p>
 
         </section>
@@ -889,13 +890,11 @@
               <br />オンラインショップで売り切れになっていてもがーでん物販ブースにて販売されているものもあります！
               <br />※物販のみの利用はできません
               <br />
-              <a href="https://kemono-friends-shop.net/" rel="external" title="がーでんショップ">けものフレンズがーでんショップ
-
-              </a>
+              <a href="https://kemono-friends-shop.net/" rel="external" title="がーでんショップ">けものフレンズがーでんショップ</a>
+              <br /><a href="http://matsuri-kf-garden.jp/images/goods/goods_list.jpg" rel="external">公式の物販情報（2018年分）</a>
               <!-- <br />
               <a href="https://japaricafe.shop/" rel="external" title="けもフレカフェショップ">けものフレンズカフェショップ</a> -->
             </p>
-
             <a href="goods.php" title="物販商品">
               <figure>
                 <img src="img/glass/comparison.png" alt="物販商品画像" class="responsive-img" />
