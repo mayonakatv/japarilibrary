@@ -1,8 +1,8 @@
 <?php
 require 'header.php';
 
-require 'goods-content.html';
-require 'specialthanks.html';
+require 'contents/goods.html';
+require 'contents/specialthanks.html';
 ?>
 <div class="pagenation">
 <a href="/" title="back to top">

@@ -1,7 +1,7 @@
 <?php
 require 'header.php';
 
-require 'firstEntry-content.html';
+require 'contents/firstEntry.html';
 ?>
 
 <div class="pagenation">

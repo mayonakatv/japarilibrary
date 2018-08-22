@@ -1057,7 +1057,7 @@
           </a>
         </section>
 
-        <?php require 'specialthanks.html'; ?>
+        <?php require 'contents/specialthanks.html'; ?>
       </section>
 
       </div>

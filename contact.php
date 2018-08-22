@@ -1,7 +1,7 @@
 <?php
 require 'header.php';
 
-require 'contact-content.html'
+require 'contents/contact.html'
 ?>
 
 <div class="pagenation" style="margin: 1em 0;">
