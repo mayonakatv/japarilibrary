@@ -3,7 +3,8 @@ class TitlePush {
   protected $titleArray = array(
     'top'     => '#がーでんいんふぉ',
     'goods'   => '物販情報',
-    'contact' => 'お問い合わせ'
+    'contact' => 'お問い合わせ',
+    'first'   => '初参加の方へ'
   );
 
   public  $uri;
