@@ -43,6 +43,7 @@ require_once 'header.php';
       <p class="red-text">全て税込価格</p>
       <p>去年の商品はこちらからも購入できます！
         <br />オンラインショップで売り切れになっていてもがーでん物販ブースにて販売されているものもあります！
+        <br />※物販のみの利用はできません
         <br />
         <a href="https://kemono-friends-shop.net/" rel="external" title="がーでんショップ">けものフレンズがーでんショップ</a>
         <br />

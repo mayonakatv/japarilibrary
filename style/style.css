@@ -177,6 +177,9 @@ ol.countlist li:before {
   text-emphasis: dot #000;
   -webkit-text-emphasis: dot #000;
 }
+.del-text {
+  text-decoration: line-through double #f00;
+}
 
 .pagetop {
   display: none;
