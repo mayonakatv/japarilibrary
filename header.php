@@ -18,6 +18,8 @@ class TitlePush {
       $t = $this->titleArray['goods'];
     }elseif(preg_match('/contact/', $this->uri)){
       $t = $this->titleArray['contact'];
+    }elseif(preg_match('/firstEntry/', $this->uri)){
+      $t = $this->titleArray['first'];
     }else{
       $t = $this->titleArray['top'];
     }
@@ -145,7 +147,7 @@ if($title === '#がーでんいんふぉ'){
             <a href="#sect-faq">よくある質問</a>
           </li>
           <li>
-            <a href="#sect-first">初参加の方へ</a>
+            <a href="firstEntry.php">初参加の方へ</a>
           </li>
           <li>
             <a href="#sect-100">もっと楽しむ</a>
