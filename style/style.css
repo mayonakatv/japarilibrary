@@ -40,7 +40,7 @@ body {
   .flex-container .flex-item {
     margin: .24em;
     align-self: flex-end;
-    flex-basis: 45% !important;
+    flex-basis: 95% !important;
   }
 }
 
