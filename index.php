@@ -1,7 +1,7 @@
 <?php
   require 'header.php';
 ?>
-    <div id="carousel" class="carousel carousel-slider">
+    <div id="carousel" class="carousel carousel-slider hide-on-med-and-down">
       <carousel-item v-for="item in carouselGroceryList" v-bind:todo="item" v-bind:target="carousel"></carousel-item>
     </div>
 
@@ -32,6 +32,7 @@
           <div id="news">
             <officialnews-item v-for="item in newsGroceryList" v-bind:todo="item" v-bind:target="news"></officialnews-item>
           </div>
+          <!-- <a class="twitter-timeline" data-height="600" href="https://twitter.com/kemono_matsuri?ref_src=twsrc%5Etfw">けもフレがーでん公式ツイッター</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
         </div>
 
         <h6>その他主筆よりお知らせ</h6>
