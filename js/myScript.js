@@ -33,6 +33,10 @@ $(function () {
 });
 
 $(document).ready(function () {
+  $('.cycle').cyclotron({ dampingFactor: 1, autorotation: 2 });
+});
+
+$(document).ready(function () {
   var pagetop = $('.pagetop');
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {

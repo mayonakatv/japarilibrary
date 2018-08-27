@@ -1,9 +1,10 @@
 <?php
   require 'header.php';
 ?>
-    <div id="carousel" class="carousel carousel-slider hide-on-med-and-down">
+    <!-- <div id="carousel" class="carousel carousel-slider hide-on-med-and-down">
       <carousel-item v-for="item in carouselGroceryList" v-bind:todo="item" v-bind:target="carousel"></carousel-item>
-    </div>
+    </div> -->
+    <div class="cyclotron cycle" style="background:url(img/panorama/panorama_1.jpg);height:512px"></div>
 
     <?php
       require 'contents/sect-about.html';

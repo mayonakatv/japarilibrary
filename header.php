@@ -71,6 +71,7 @@ $height      = $returnArray[1];
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <!--遅延読み込み(本体が下の順番守れ！)-->
+  <script type="text/javascript" src="js/jquery.cyclotron.min.js"></script>
   <script type="text/javascript" src="js/addLazyloadCss.js"></script>
   <script type="text/javascript" src="js/addDomain.js"></script>
   <script type="text/javascript" src="js/lazysizes.min.js"></script>
@@ -241,26 +242,4 @@ if($title === '#がーでんいんふぉ'){
 <?php } ?>
     </nav>
   </div>
-<?php
-// }else{
-
-// <div class="navbar-fixed" style="min-height: 64px;">
-//   <nav class="nav-extended">
-//     <div class="nav-wrapper">
-//       <a href="/" class="brand-logo">
-//         <img src="/favicon.ico" alt="Bland-logo" />
-//       </a>
-//       <ul class="right hide-on-med-and-down">
-//         <li>
-//           <h1 style="margin: 0;">
-//             <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
-//           </h1>
-//         </li>
-//       </ul>
-//     </div>
-//   </nav>
-// </div>
-
-// }
-?>
 </header>
