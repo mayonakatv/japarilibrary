@@ -1,0 +1,76 @@
+<section id="sect-gardengoods">
+  <h2>コラボフード / 景品 / グッズ</h2>
+  <section id="sect-foods">
+    <h5>フードメニュー</h5>
+    <p>
+      <a href="http://matsuri-kf-garden.jp/images/menu/kemono_menu2018.pdf" rel="external">クリックして詳細を確認(公式サイトPDF)</a>
+    </p>
+    <button class="openBtn btn btn-large">表示する</button>
+    <div class="textArea">
+      <div id="food" class="flex-container">
+        <gardengoods-item v-for="item in foodGroceryList" v-bind:todo="item" v-bind:target="food"></gardengoods-item>
+      </div>
+    </div>
+  </section>
+
+  <section id="sect-coaster">
+    <h5>コースター
+      <span>全25種類(9+未確認16種類)</span>
+    </h5>
+    <button class="openBtn btn btn-large">表示する</button>
+    <div class="textArea">
+      <div id="coaster" class="flex-container">
+        <gardengoods-item v-for="item in coasterGroceryList" v-bind:todo="item" v-bind:target="coaster"></gardengoods-item>
+      </div>
+    </div>
+    <!--[end]textArea-->
+  </section>
+
+  <section id="sect-kobachi">
+    <h5>小鉢
+      <span>全11種類</span>
+    </h5>
+    <button class="openBtn btn btn-large">表示する</button>
+    <div class="textArea">
+      <div id="kobachi" class="flex-container">
+        <gardengoods-item v-for="item in kobachiGroceryList" v-bind:todo="item" v-bind:target="kobachi"></gardengoods-item>
+      </div>
+    </div>
+    <!--[end]textArea-->
+  </section>
+
+  <section id="sect-shateki">
+    <h5>射的景品
+      <span>全59種類</span>
+    </h5>
+    <button class="openBtn btn btn-large">表示する</button>
+    <div class="textArea">
+      <div id="shateki" class="flex-container">
+        <gardengoods-item v-for="item in shatekiGroceryList" v-bind:todo="item" v-bind:target="shateki"></gardengoods-item>
+      </div>
+    </div>
+  </section>
+
+  <section id="sect-goods">
+    <h5>物販商品</h5>
+    <p>去年の商品はこちらからも購入できます！
+      <br />オンラインショップで売り切れになっていてもがーでん物販ブースにて販売されているものもあります！
+      <br />※物販のみの利用はできません
+      <br />
+      <a href="https://kemono-friends-shop.net/" rel="external" title="がーでんショップ">けものフレンズがーでんショップ</a>
+      <br /><a href="http://matsuri-kf-garden.jp/images/goods/goods_list.jpg" rel="external">公式の物販情報（2018年分）</a>
+      <!-- <br />
+              <a href="https://japaricafe.shop/" rel="external" title="けもフレカフェショップ">けものフレンズカフェショップ</a> -->
+    </p>
+    <a href="goods.php" title="物販商品">
+      <figure>
+        <img src="img/glass/comparison.png" alt="物販商品画像" class="responsive-img" />
+        <figcaption class="center-align">
+          <button class="btn btn-large">
+            物販の取り扱い商品一覧へ
+          </button>
+        </figcaption>
+      </figure>
+    </a>
+  </section>
+</section>

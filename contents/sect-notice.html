@@ -1,0 +1,40 @@
+<section id="sect-notice">
+  <h2>諸注意</h2>
+  <div id="notice">
+    <ol>
+      <notice-item v-for="item in noticeGroceryList" v-bind:todo="item" v-html="item.text"></notice-item>
+    </ol>
+    <div class="flex-container">
+      <div class="flex-item">
+        <figure>
+          <img src="img/other/temp42_2-min.png" class="responsive-img" alt="Too hot!" />
+          <figcaption>超絶高温です...
+            <a href="img/other/temp42_2.png" title="100%" rel="nofollow">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex-item">
+        <figure>
+          <img src="img/other/washPlace-min.png" class="responsive-img" alt="洗い場" />
+          <figcaption>洗い場は譲り合って使いましょう
+            <a href="img/other/washPlace.png" title="100%" rel="nofollow">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex-item">
+        <figure>
+          <img src="img/other/drinkArea-min.png" class="responsive-img" alt="ドリンク販売エリア" />
+          <figcaption>コラボドリンクはこちらで！
+            <a href="img/other/drinkArea.png" title="100%" rel="nofollow">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
