@@ -31,7 +31,10 @@ var officialnews = new Vue({
         { id: 10, href: 'https://twitter.com/kemono_matsuri/status/1028876678271881216', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでん9月分(土日祝)のチケットは8月17日(金)18:00～販売開始です☆ もう9月の販売です…早いですね… 真夏のけものフレンズがーでんもいいですが、少し涼しくなったけものフレンズがーでんにも来てみてください☆！ <a href="http://r-t.jp/kf-garden2" rel="external">http://r-t.jp/kf-garden2</a> - 14:31 - 2018年8月13日' },
         { id: 11, href: 'https://twitter.com/kemono_matsuri/status/1029551107062652931', seen: true, remark: defaultValue.remark, text: 'そして！！×100 今日からスタンプも変わってるよー 何のスタンプに変わってるかは来てからのお楽しみなのだー みんなの事待ってるのだー - 11:11 - 2018年8月15日' },
         { id: 12, href: 'https://twitter.com/kemono_matsuri/status/1030350235036397568', seen: true, remark: defaultValue.remark, text: '★☆かき氷気温割引キャンペーン☆★  8月20日より、かき氷が気温により割引になるキャンペーンを実施！ 31℃は400円、32℃は300円、33℃は200円、34℃で100円… 35℃以上はなんと無料です！！ ※オープン時の気温を基準に決定いたします。 あつ～い夏を乗り越えましょう！！ #けもフレがーでん - 16:06 - 2018年8月17日' },
-        { id: 13, href: 'https://twitter.com/kemono_matsuri/status/1031752014701637637', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでんのグッズ表が完成しました～～！ 皆さんけものフレンズがーでんにご来店した際はぜひぜひお立ち寄りくださーい！！！ 皆様のご来店心よりお待ちしております☆！！ #けもフレがーでん - 12:57 - 2018年8月21日' }
+        { id: 13, href: 'https://twitter.com/kemono_matsuri/status/1031752014701637637', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでんのグッズ表が完成しました～～！ 皆さんけものフレンズがーでんにご来店した際はぜひぜひお立ち寄りくださーい！！！ 皆様のご来店心よりお待ちしております☆！！ #けもフレがーでん - 12:57 - 2018年8月21日' },
+        { id: 14, href: 'https://twitter.com/kemono_matsuri/status/1032462650179911680', seen: true, remark: defaultValue.remark, text: '【店内新イベント①】８月２７日(月)より「ハッピーアワー」を導入！ 平日限定で１７時、１８時にご来店いただきましたお客様に大人気の「セルリアンのたこ焼き」をおひとり様１つプレゼント！！！ 是非来てくださいねーー☆ #けもフレがーでん - 12:00 - 2018年8月23日' },
+        { id: 15, href: 'https://twitter.com/kemono_matsuri/status/1032553113289285633', seen: true, remark: defaultValue.remark, text: '【店内新イベント②】８月２７日(月)より「フィーバータイム」を導入！毎日行います！ 射的がいつもより前で打てます！！ジャパまん投げのコインがなんどCDサイズ？！？ 各回２０分間限定です！いつスタートするかはスタッフの気分次第？！ 縁日も楽しんでいって下さ～い(^^)/ #けもフレがーでん - 18:00 - 2018年8月23日' },
+        { id: 16, href: 'https://twitter.com/kemono_matsuri/status/1033965044931784704', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでん2がたくさんキャンペーンをしちゃいます！【全日】フレンズ紹介特典・縁日フィーバータイム 【平日限定】ハッピーアワー・クイズ大会・パッカァーン大会 開催日などの詳細は随時ツイッターにてお知らせしますので皆さんご覧ください！ #けもフレがーでん 15:30 - 2018年8月27日' }
       ]
     }
   }
