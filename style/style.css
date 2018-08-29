@@ -29,6 +29,9 @@ body {
     align-self: flex-end;
     flex-basis: 45% !important;
   }
+  #sect-nanamiNews div {
+    padding:0 !important;
+  }
 }
 @media only screen and (max-width: 601px){
   .container {
@@ -332,4 +335,11 @@ margin: .4em 0;
 /* firstEntry sect-myMessage */
 #sect-myMessage p {
   text-indent: 1em;
+}
+
+#sect-nanamiNews div {
+  padding:0 2em;
+}
+#sect-nanamiNews h3 {
+  font-size: 1.25em;
 }
