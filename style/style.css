@@ -328,3 +328,8 @@ margin: .4em 0;
   box-sizing: border-box;
   float: left;
 }
+
+/* firstEntry sect-myMessage */
+#sect-myMessage p {
+  text-indent: 1em;
+}
