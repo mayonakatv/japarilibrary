@@ -5,7 +5,7 @@ Vue.component('gardengoods-item', {
   props: ['todo', 'target'],
   template: `<div class="flex-item">
               <figure>
-                <img v-bind:src="todo.src" v-bind:alt="todo.alt" class="responsive-img" />
+                <img src="img/sysimg/bossLoading.jpg" v-bind:data-src="todo.src" v-bind:alt="todo.alt" class="responsive-img" />
                 <figcaption>{{ todo.name }}
                   <a v-bind:href="todo.srcparent" v-bind:title="todo.title" v-bind:rel="todo.rel" v-if="todo.srcparent">
                     <i v-bind:class="todo.icon" v-if="todo.icon"></i>
@@ -43,7 +43,7 @@ var gardengoods = new Vue({
         { id: 8, name: 'Food [各種 300円]', rel: '', alt: 'food', src: 'img/sysimg/utensils-solid.svg', srcparent: '', icon: '' },
         { id: 9, name: 'セルリアンの卵焼き串', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanEgg-min.png', srcparent: 'img/foods/ceruleanEgg.png', icon: defaultValue.internal.icon },
         { id: 10, name: '赤セルリアンのザーサイ', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanZasai-min.png', srcparent: 'img/foods/ceruleanZasai.png', icon: defaultValue.internal.icon },
-        { id: 11, name: '赤セルリアンのメンマ', rel: '', alt: 'food', src: '', srcparent: '', icon: '' },
+        { id: 11, name: '赤セルリアンのメンマ', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/Dl6k8giUwAATewN.jpg', srcparent: 'https://twitter.com/zelnolove/status/1035446339461570560', icon: defaultValue.external.icon },
         { id: 12, name: 'Food [各種 1,000円]', rel: '', alt: 'food', src: 'img/sysimg/utensils-solid.svg', srcparent: '', icon: '' },
         { id: 13, name: '野菜カレー', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenCurry-min.png', srcparent: 'img/foods/gardenCurry.png', icon: defaultValue.internal.icon },
         { id: 14, name: 'サーバルのオムそば', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/servalOmusoba-min.png', srcparent: 'img/foods/servalOmusoba.png', icon: defaultValue.internal.icon },
@@ -55,12 +55,12 @@ var gardengoods = new Vue({
         { id: 20, name: 'ツチノコのショコララテ', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/tsuchinokoChocolatLatte-min.png', srcparent: 'img/foods/tsuchinokoChocolatLatte.png', icon: defaultValue.internal.icon },
         { id: 21, name: 'リョコウバトのストロベリーカルピス', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/foods/ryokouStrawberryCalpis-min.png', srcparent: 'img/foods/ryokouStrawberryCalpis.png', icon: defaultValue.internal.icon },
         { id: 29, name: '冷酒（日本酒/紙コップで提供） [300円]', rel: defaultValue.internal.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/goods/tsuchinokoGlass-min.png', srcparent: 'img/goods/tsuchinokoGlass.png', icon: defaultValue.internal.icon },
-        { id: 22, name: 'Desert [各種 500円]', rel: defaultValue.external.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/sysimg/cookie-bite-solid.svg', srcparent: 'img/sysimg/cookie-bite-solid.svg', icon: defaultValue.internal.icon },
-        { id: 23, name: 'セルリアンかき氷・赤', rel: defaultValue.external.rel, alt: 'food', title: defaultValue.internal.title, src: 'https://pbs.twimg.com/media/Dk8KniEUwAAY32I.jpg', srcparent: 'https://twitter.com/htktkgt/status/1031054537874788352', icon: defaultValue.internal.icon },
-        { id: 24, name: 'セルリアンかき氷・青', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DjcdunWVAAAR87Y.jpg', srcparent: 'https://twitter.com/htktkgt/status/1024320136356843520', icon: '' },
-        { id: 25, name: 'セルリアンソフトクリーム', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' },
+        { id: 22, name: 'Desert [各種 500円]', rel: defaultValue.external.rel, alt: 'food', title: defaultValue.internal.title, src: 'img/sysimg/cookie-bite-solid.svg', srcparent: 'img/sysimg/cookie-bite-solid.svg', icon: '' },
+        { id: 23, name: 'セルリアンかき氷・赤', rel: defaultValue.external.rel, alt: 'food', title: defaultValue.internal.title, src: 'https://pbs.twimg.com/media/Dk8KniEUwAAY32I.jpg', srcparent: 'https://twitter.com/htktkgt/status/1031054537874788352', icon: defaultValue.external.icon },
+        { id: 24, name: 'セルリアンかき氷・青', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DjcdunWVAAAR87Y.jpg', srcparent: 'https://twitter.com/htktkgt/status/1024320136356843520', icon: defaultValue.external.icon },
+        { id: 25, name: 'セルリアンソフトクリーム', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanSoftcream-min.png', srcparent: 'img/foods/ceruleanSoftcream.png', icon: defaultValue.internal.icon },
         { id: 26, name: 'セルリアン綿あめ', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanWataame-min.png', srcparent: 'img/foods/ceruleanWataame.png', icon: defaultValue.internal.icon },
-        { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: '', srcparent: '', icon: '' }
+        { id: 27, name: 'セルリアンクレープ', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/ceruleanCrepe-min.png', srcparent: 'img/foods/ceruleanCrepe.png', icon: defaultValue.internal.icon }
         //        { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' }
       ],
       coasterGroceryList: [
@@ -75,12 +75,12 @@ var gardengoods = new Vue({
         { id: 8, name: 'ヤンバルクイナ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/yambarukuina-min.png', srcparent: 'img/coaster/yambarukuina.png', icon: defaultValue.internal.icon },
         { id: 9, name: 'リュウキュウケン', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/ryukyuken-min.png', srcparent: 'img/coaster/ryukyuken.png', icon: defaultValue.internal.icon },
         { id: 10, name: '第二弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-two-solid.svg', srcparent: '', icon: '' },
-        { id: 11, name: 'サーバル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/serval-min.png', srcparent: '', icon: '' },
+        { id: 11, name: 'サーバル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/serval-min.png', srcparent: 'img/coaster/serval.png', icon: defaultValue.internal.icon },
         { id: 12, name: 'アライさん', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/arai-min.png', srcparent: 'img/coaster/arai.png', icon: defaultValue.internal.icon },
         { id: 13, name: 'フェネック', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/fenec-min.png', srcparent: 'img/coaster/fenec.png', icon: defaultValue.internal.icon },
         { id: 14, name: 'プリンセス', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/princess-min.png', srcparent: 'img/coaster/princess.png', icon: defaultValue.internal.icon },
         { id: 15, name: 'ジェーン', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/gentoo-min.png', srcparent: 'img/coaster/gentoo.png', icon: defaultValue.internal.icon },
-        { id: 16, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/iwabi-min.png', srcparent: '', icon: '' },
+        { id: 16, name: 'イワビー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/iwabi-min.png', srcparent: 'img/coaster/iwabi.png', icon: defaultValue.internal.icon },
         { id: 17, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/koutei-min.png', srcparent: 'img/coaster/koutei.png', icon: defaultValue.internal.icon },
         { id: 18, name: 'フルル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/fululu-min.png', srcparent: '', icon: '' },
         { id: 19, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/shironagasukujira-min.png', srcparent: 'img/coaster/shironagasukujira.png', icon: defaultValue.internal.icon },
@@ -164,6 +164,7 @@ var gardengoods = new Vue({
         { id: 53, name: 'ヒメアリクイ', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/p_himearikui-min.png', srcparent: 'img/shateki/p_himearikui.png', icon: defaultValue.internal.icon },
         { id: 53, name: 'トムソンガゼル', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
         { id: 54, name: 'ニホンカワウソ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
+        { id: 55, name: 'ボス', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/boss-min.png', srcparent: 'img/shateki/boss.png', icon: defaultValue.internal.icon },
         { id: 55, name: '総外れ第一弾 [終了]', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/garden_seal-min.png', srcparent: 'img/shateki/garden_seal.png', icon: defaultValue.internal.icon },
         { id: 56, name: '総外れ第二弾 [現在配布中]', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/garden_seal_2-min.png', srcparent: 'img/shateki/garden_seal_2.png', icon: defaultValue.internal.icon }
       ],
