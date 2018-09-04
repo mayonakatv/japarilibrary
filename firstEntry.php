@@ -1,8 +1,14 @@
 <?php
 require 'header.php';
-
-require 'contents/firstEntry.html';
 ?>
+
+<div class="addLazyloadCss">
+
+<?php
+  require 'contents/firstEntry.html';
+?>
+
+</div>
 
 <div class="pagenation">
   <a href="/"  rel="nofollow" class="btn btn-large">
