@@ -72,11 +72,7 @@ $height      = $returnArray[1];
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <!--遅延読み込み(本体が下の順番守れ！)-->
   <script type="text/javascript" src="js/jquery.cyclotron.min.js"></script>
-  <script type="text/javascript" src="js/addLazyloadCss.js"></script>
-  <script type="text/javascript" src="js/addDomain.js"></script>
   <script type="text/javascript" src="js/lazysizes.min.js"></script>
-  <script type="text/javascript" src="js/externalLinks.js"></script>
-  <script type="text/javascript" src="js/kome-red.js"></script>
   <script type="text/javascript" src="js/myScript.js"></script>
   <script>
     //https://qiita.com/Takuya_Kouyama/items/b815eb5e1f85d819b4d8
@@ -131,7 +127,7 @@ if($title === '#がーでんいんふぉ'){
         <ul class="right hide-on-med-and-down">
           <li>
             <h1 style="margin: 0;">
-              <img src="img/sysimg/brandLogo.png" alt="brand-logo" style="height:64px;" />
+              <img src="img/sysimg/brandLogo-min.png" alt="brand-logo" style="height:64px;" />
             </h1>
           </li>
 <?php if($title === '#がーでんいんふぉ') { ?>

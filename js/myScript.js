@@ -1,3 +1,45 @@
+//addDomain.js
+var domain = 'https://kemono-matsuri.japarilibrary.com/';
+
+$('img:not([rel=external])').each(function () {
+  if ($(this).attr('src').slice(0, 4) === 'img/' && $(this).attr('src').slice(0, 4)) {
+    $(this).attr('src', function () {
+      $(this).attr('src', domain + $(this).attr('src'))
+    })
+  }
+})
+
+$(function () {
+  //遅延読み込み:addLazyloadCss.js
+  //https://qiita.com/terrierscript/items/3ad3c0eded587e432aa5
+  //req, https://oxynotes.com/?p=10810
+  //req, https://wemo.tech/207
+  $('div.addLazyloadCss').find('img').addClass('lazyload');
+})
+
+$(function () {
+  //externalLinks.js
+  //rel externalを新しいタブで開く
+  $('a[rel="external"]').click(function () {
+    window.open($(this).attr("href"));
+    return false;
+  });
+
+  //title source を追加
+  //https://www.sejuku.net/blog/37402
+  //https://www.sejuku.net/blog/33609
+  $('a[rel="external"]').each(function () {
+    $(this).prop('title')
+      ? $(this).attr('title', $(this).attr('title') + ' source')
+      : $(this).prop('title', 'source')
+  })
+
+  //external 用のiconを追加
+  $('a[rel="external"]').html(function () {
+    $(this).html($(this).html() + ' <i class="fas fa-external-link-alt"></i>');
+  })
+})
+
 //http://exrecord.net/how-to-create-overlay-and-modal-window-in-jquery
 //deleted
 
@@ -95,4 +137,11 @@ $(function () {
   }, function () {
     $(this).children('ul').slideUp('fast');
   })
+})
+
+
+$(document).ready(function () {
+  //kome-red.js
+  //figcaption内に米印の注意書きがあれば文字を赤くする
+  $("figcaption:contains('※')").addClass("red-text");
 })
