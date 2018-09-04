@@ -58,7 +58,7 @@ $height      = $returnArray[1];
 
   <meta name="description" content="けものフレンズの有志が作成するジャパリパークのオンライン図書館。けものフレンズ公式イベントである、けもフレがーでんの断片的な情報を集めたページです。公式のアナウンスや、参加者の発信した情報をまとめています！"
   />
-  <meta name="keywords" content="けものフレンズ, けもフレ, けもフレがーでん, がーでん, ビアガーデン、まとめ, がーでんいんふぉ, #がーでんいんふぉ" />
+  <meta name="keywords" content="けものフレンズ, けもフレ, けもフレがーでん, けものフレンズがーでん, がーでん, ガーデン, ビアガーデン、まとめ, がーでんいんふぉ, #がーでんいんふぉ, じゃぱりとしょかん, ジャパリ図書館, 情報" />
 
   <title><?php echo $title; ?> | じゃぱりとしょかん</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
