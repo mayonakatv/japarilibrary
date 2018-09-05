@@ -66,6 +66,13 @@ $height      = $returnArray[1];
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link rel="stylesheet" href="style/style.css">
+  
+  <?php if($title === '#がーでんいんふぉ'){
+    //https://sbfl.net/blog/2017/11/19/resource-hints/ ?>
+  <link rel="prerender" href="https://kemono-matsuri.japarilibrary.com/goods.php">
+  <?php }else{ ?>
+  <link rel="prerender" href="https://kemono-matsuri.japarilibrary.com">
+  <?php } ?>
   <!--Vue.js導入-->
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -73,7 +80,7 @@ $height      = $returnArray[1];
   <!--遅延読み込み(本体が下の順番守れ！)-->
   <script type="text/javascript" src="js/jquery.cyclotron.min.js"></script>
   <script type="text/javascript" src="js/lazysizes.min.js"></script>
-  <script type="text/javascript" src="js/myScript.js"></script>
+  <script type="text/javascript" src="js/myScript.js?20180905-0554"></script>
   <script>
     //https://qiita.com/Takuya_Kouyama/items/b815eb5e1f85d819b4d8
     //http://cgsc.info/programming/20151222_fixed-header_scroll
