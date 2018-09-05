@@ -15,6 +15,7 @@ $(function () {
   //req, https://oxynotes.com/?p=10810
   //req, https://wemo.tech/207
   $('div.addLazyloadCss').find('img').addClass('lazyload');
+  $('div.addLazyloadCss').find('iframe').addClass('lazyload');
 })
 
 $(function () {
