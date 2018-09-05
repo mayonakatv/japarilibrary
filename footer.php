@@ -16,10 +16,10 @@
 
   <script type="text/javascript" src="js/dropdown.js"></script>
   <script type="text/javascript" src="js/officialnews.js"></script>
-  <script type="text/javascript" src="js/carousel.js"></script>
-  <script type="text/javascript" src="js/gardengoods.js"></script>
-  <script type="text/javascript" src="js/notice.js"></script>
-  <script type="text/javascript" src="js/spthx.js"></script>
+  <!-- <script type="text/javascript" src="js/carousel.js" defer></script> -->
+  <script type="text/javascript" src="js/gardengoods.js" defer></script>
+  <script type="text/javascript" src="js/notice.js" defer></script>
+  <script type="text/javascript" src="js/spthx.js" defer></script>
 
   <!--代替画像表示_一番最後に実行のこと！-->
   <script type="text/javascript" src="js/alternateImage.js"></script>
