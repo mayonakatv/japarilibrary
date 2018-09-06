@@ -69,7 +69,6 @@ $height      = $returnArray[1];
     });
   </script>
 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script type="text/javascript" src="js/ga.js" async></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123516140-1"></script>
