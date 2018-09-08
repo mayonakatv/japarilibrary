@@ -82,6 +82,7 @@ $height      = $returnArray[1];
 </head>
 
 <body id="top" class="yellow lighten-5">
+<!-- <body id="top" style="background-image: url('img/sysimg/background-min.png') repeat;"> -->
   <div class="container">
   <header>
 
