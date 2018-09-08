@@ -88,9 +88,9 @@ $height      = $returnArray[1];
 <?php
 if($title === '#がーでんいんふぉ'){
 ?>
-  <ul id="dropdown1" class="dropdown-content">
+  <!-- <ul id="dropdown1" class="dropdown-content">
     <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
-  </ul>
+  </ul> -->
   <ul id="mobileSide" class="sidenav">
     <dd-item v-for="item in ddGroceryList" v-bind:todo="item"></dd-item>
   </ul>
@@ -98,22 +98,22 @@ if($title === '#がーでんいんふぉ'){
   <div class="navbar-fixed" <?php if($title !=='#がーでんいんふぉ'){echo "style='min-height:64px;'";}; ?>>
     <nav class="nav-extended">
       <div class="nav-wrapper">
-        <a href="/" class="brand-logo">
-          <img src="/favicon.ico" alt="Bland-logo" />
-        </a>
+        <h1 style="margin: 0;">
+          <a href="/" class="brand-logo">
+            <img src="img/sysimg/brandLogo-small-min.png" alt="brand-logo" style="height:64px;" />
+          </a>
+        </h1>
         <ul class="right hide-on-med-and-down">
           <li>
-            <h1 style="margin: 0;">
-              <img src="img/sysimg/brandLogo-small-min.png" alt="brand-logo" style="height:64px;" />
-            </h1>
+            <img src="/favicon.ico" alt="Makers-logo" />
           </li>
-<?php if($title === '#がーでんいんふぉ') { ?>
-          <li>
+<?php //if($title === '#がーでんいんふぉ') { ?>
+          <!-- <li>
             <a class="dropdown-trigger" data-target="dropdown1" style="cursor: pointer;">
               <i class="fas fa-bars"></i>
             </a>
-          </li>
-<?php } ?>
+          </li> -->
+<?php //} ?>
         </ul>
 <?php if($title === '#がーでんいんふぉ') { ?>
         <a class="sidenav-trigger" data-target="mobileSide" style="cursor: pointer;">
