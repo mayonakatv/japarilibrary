@@ -35,7 +35,9 @@ var officialnews = new Vue({
         { id: 14, href: 'https://twitter.com/kemono_matsuri/status/1032462650179911680', seen: true, remark: defaultValue.remark, text: '【店内新イベント①】８月２７日(月)より「ハッピーアワー」を導入！ 平日限定で１７時、１８時にご来店いただきましたお客様に大人気の「セルリアンのたこ焼き」をおひとり様１つプレゼント！！！ 是非来てくださいねーー☆ #けもフレがーでん - 12:00 - 2018年8月23日' },
         { id: 15, href: 'https://twitter.com/kemono_matsuri/status/1032553113289285633', seen: true, remark: defaultValue.remark, text: '【店内新イベント②】８月２７日(月)より「フィーバータイム」を導入！毎日行います！ 射的がいつもより前で打てます！！ジャパまん投げのコインがなんどCDサイズ？！？ 各回２０分間限定です！いつスタートするかはスタッフの気分次第？！ 縁日も楽しんでいって下さ～い(^^)/ #けもフレがーでん - 18:00 - 2018年8月23日' },
         { id: 16, href: 'https://twitter.com/kemono_matsuri/status/1033965044931784704', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでん2がたくさんキャンペーンをしちゃいます！【全日】フレンズ紹介特典・縁日フィーバータイム 【平日限定】ハッピーアワー・クイズ大会・パッカァーン大会 開催日などの詳細は随時ツイッターにてお知らせしますので皆さんご覧ください！ #けもフレがーでん 15:30 - 2018年8月27日' },
-        { id: 17, href: 'https://twitter.com/kemono_matsuri/status/1034713093396254721', seen: true, remark: defaultValue.remark, text: 'みなさーん！！ 今日からスタンプラリーのスタンプが変わってるよー！！ 今回は何のフレンズかなー？？ 楽しみだねっ！！ みんなが来るの楽しみに待ってるのだー - 17:03 - 2018年8月29日' }
+        { id: 17, href: 'https://twitter.com/kemono_matsuri/status/1034713093396254721', seen: false, remark: defaultValue.remark, text: 'みなさーん！！ 今日からスタンプラリーのスタンプが変わってるよー！！ 今回は何のフレンズかなー？？ 楽しみだねっ！！ みんなが来るの楽しみに待ってるのだー - 17:03 - 2018年8月29日' },
+        { id: 18, href: 'https://twitter.com/kemono_matsuri/status/1038336549933334528', seen: true, remark: defaultValue.remark, text: 'みなさーん！！ 本日の2部からアルコール・ドリンクバーのボタン表記が変わったのだーパチパチ！！ 今回はどんなのかなー？？ 写真はあえてアップしないよーw がーでんに遊びに来て確認するのだーーー -17:01 - 2018年9月8日' },
+        { id: 19, href: 'https://twitter.com/kemono_matsuri/status/1038435566834999296', seen: true, remark: defaultValue.remark, text: 'みなさーん！！ 夜遅くにごめんなのだ〜！！ 明日から小鉢第2弾がスタートになるのよ！ ランダム配布で第1弾も混ざってるけど楽しみにしててね☆ 第1弾が来ても喜んで欲しいのだ！ 明日もみんなのこと待ってるのだーーー！！ - 23:35 - 2018年9月8日' }
       ]
     }
   }
