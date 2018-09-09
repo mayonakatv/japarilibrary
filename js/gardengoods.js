@@ -86,11 +86,11 @@ var gardengoods = new Vue({
         { id: 19, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/shironagasukujira-min.png', srcparent: 'img/coaster/shironagasukujira.png', icon: defaultValue.internal.icon },
         { id: 20, name: 'オカピ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/okapi-min.png', srcparent: 'img/coaster/okapi.png', icon: defaultValue.internal.icon },
         { id: 21, name: 'タヌキ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/tanuki-min.png', srcparent: 'img/coaster/tanuki.png', icon: defaultValue.internal.icon },
-        { id: 22, name: 'オオフラミンゴ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon },
+        { id: 22, name: 'オオフラミンゴ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/oofuramingo-min.png', srcparent: 'img/coaster/oofuramingo.png', icon: defaultValue.internal.icon },
         { id: 23, name: 'クロヒョウ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/kurohyou-min.png', srcparent: 'img/coaster/kurohyou.png', icon: defaultValue.internal.icon },
         { id: 24, name: 'ヒツジ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/sheep-min.png', srcparent: 'img/coaster/sheep.png', icon: defaultValue.internal.icon },
         { id: 25, name: 'サーベルタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/StTiger-min.png', srcparent: 'img/coaster/StTiger.png', icon: defaultValue.internal.icon },
-        { id: 26, name: 'ホワイトタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/-min.png', srcparent: '', icon: defaultValue.internal.icon }
+        { id: 26, name: 'ホワイトタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/wTiger-min.png', srcparent: 'img/coaster/wTiger.png', icon: defaultValue.internal.icon }
       ],
       kobachiGroceryList: [
         { id: 0, name: 'がーでん２ロゴ (がーでん２)', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'https://pbs.twimg.com/media/DijX1q3VAAARVjA.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1020302641916653568', icon: defaultValue.external.icon },
