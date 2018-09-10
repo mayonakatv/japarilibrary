@@ -1,9 +1,9 @@
 <section id="sect-notice">
   <h2>諸注意</h2>
   <div id="notice">
-    <ol>
+    <ul class="dot-list">
       <notice-item v-for="item in noticeGroceryList" v-bind:todo="item" v-html="item.text"></notice-item>
-    </ol>
+    </ul>
     <div class="flex-container">
       <div class="flex-item">
         <figure>

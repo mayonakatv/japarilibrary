@@ -37,7 +37,8 @@ var officialnews = new Vue({
         { id: 16, href: 'https://twitter.com/kemono_matsuri/status/1033965044931784704', seen: true, remark: defaultValue.remark, text: 'けものフレンズがーでん2がたくさんキャンペーンをしちゃいます！【全日】フレンズ紹介特典・縁日フィーバータイム 【平日限定】ハッピーアワー・クイズ大会・パッカァーン大会 開催日などの詳細は随時ツイッターにてお知らせしますので皆さんご覧ください！ #けもフレがーでん 15:30 - 2018年8月27日' },
         { id: 17, href: 'https://twitter.com/kemono_matsuri/status/1034713093396254721', seen: false, remark: defaultValue.remark, text: 'みなさーん！！ 今日からスタンプラリーのスタンプが変わってるよー！！ 今回は何のフレンズかなー？？ 楽しみだねっ！！ みんなが来るの楽しみに待ってるのだー - 17:03 - 2018年8月29日' },
         { id: 18, href: 'https://twitter.com/kemono_matsuri/status/1038336549933334528', seen: true, remark: defaultValue.remark, text: 'みなさーん！！ 本日の2部からアルコール・ドリンクバーのボタン表記が変わったのだーパチパチ！！ 今回はどんなのかなー？？ 写真はあえてアップしないよーw がーでんに遊びに来て確認するのだーーー -17:01 - 2018年9月8日' },
-        { id: 19, href: 'https://twitter.com/kemono_matsuri/status/1038435566834999296', seen: true, remark: defaultValue.remark, text: 'みなさーん！！ 夜遅くにごめんなのだ〜！！ 明日から小鉢第2弾がスタートになるのよ！ ランダム配布で第1弾も混ざってるけど楽しみにしててね☆ 第1弾が来ても喜んで欲しいのだ！ 明日もみんなのこと待ってるのだーーー！！ - 23:35 - 2018年9月8日' }
+        { id: 19, href: 'https://twitter.com/kemono_matsuri/status/1038435566834999296', seen: true, remark: defaultValue.remark, text: 'みなさーん！！ 夜遅くにごめんなのだ〜！！ 明日から小鉢第2弾がスタートになるのよ！ ランダム配布で第1弾も混ざってるけど楽しみにしててね☆ 第1弾が来ても喜んで欲しいのだ！ 明日もみんなのこと待ってるのだーーー！！ - 23:35 - 2018年9月8日' },
+        { id: 20, href: 'https://twitter.com/kemono_matsuri/status/1039041830677934080', seen: true, remark: '<br /><span class="red-text">※<a href="#sect-notice">諸注意</a>に詳細あります</span>', text: 'フレンズの皆様へお願いです。 本日より店内の360度カメラ及びビデオ撮影を禁止とさせていただきます。 理由としては他のお客様から写りたくないという声が多く出ております。 皆様全員が楽しんでいただけるように今回このような形とさせていただきます。 ご理解ご協力の程宜しくお願い申し上げます。 - 15:44 - 2018年9月10日' }
       ]
     }
   }
