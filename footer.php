@@ -1,4 +1,4 @@
-  <footer class="page-footer">
+<footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
         &copy;opyright 2018 mayonaka.tv and japarilibrary.com all rights reserved.
