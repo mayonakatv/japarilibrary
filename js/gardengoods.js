@@ -90,7 +90,16 @@ var gardengoods = new Vue({
         { id: 23, name: 'クロヒョウ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/kurohyou-min.png', srcparent: 'img/coaster/kurohyou.png', icon: defaultValue.internal.icon },
         { id: 24, name: 'ヒツジ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/sheep-min.png', srcparent: 'img/coaster/sheep.png', icon: defaultValue.internal.icon },
         { id: 25, name: 'サーベルタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/StTiger-min.png', srcparent: 'img/coaster/StTiger.png', icon: defaultValue.internal.icon },
-        { id: 26, name: 'ホワイトタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/wTiger-min.png', srcparent: 'img/coaster/wTiger.png', icon: defaultValue.internal.icon }
+        { id: 26, name: 'ホワイトタイガー', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/wTiger-min.png', srcparent: 'img/coaster/wTiger.png', icon: defaultValue.internal.icon },
+        { id: 27, name: '第三弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-three-solid.svg', srcparent: '', icon: '' },
+        { id: 28, name: 'オーストラリアデビル', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/australiaDevil-min.png', srcparent: 'img/coaster/.png', icon: defaultValue.internal.icon },
+        { id: 29, name: 'オーロックス', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/aurochs-min.png', srcparent: 'img/coaster/.png', icon: defaultValue.internal.icon },
+        { id: 30, name: 'シヴァテリウム', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/sivatherium-min.png', srcparent: 'img/coaster/oofuramingo.png', icon: defaultValue.internal.icon },
+        { id: 31, name: 'ダイアウルフ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/kurohyou-min.png', srcparent: 'img/coaster/kurohyou.png', icon: defaultValue.internal.icon },
+        { id: 32, name: 'ディアトリマ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/kurohyou-min.png', srcparent: 'img/coaster/kurohyou.png', icon: defaultValue.internal.icon },
+        { id: 33, name: 'ニホンオオカミ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/sheep-min.png', srcparent: 'img/coaster/sheep.png', icon: defaultValue.internal.icon },
+        { id: 34, name: 'リョコウバト', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/StTiger-min.png', srcparent: 'img/coaster/StTiger.png', icon: defaultValue.internal.icon },
+        { id: 35, name: 'ツチノコ', rel: defaultValue.internal.rel, alt: 'coaster', title: defaultValue.internal.title, src: 'img/coaster/wTiger-min.png', srcparent: 'img/coaster/wTiger.png', icon: defaultValue.internal.icon }
       ],
       kobachiGroceryList: [
         { id: 0, name: '第一弾', rel: defaultValue.external.rel, alt: 'kobachi', title: defaultValue.external.title, src: 'img/sysimg/dice-one-solid.svg', srcparent: '', icon: '' },
@@ -106,11 +115,17 @@ var gardengoods = new Vue({
         { id: 10, name: 'コウテイ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/koutei-min.png', srcparent: 'img/kobachi/koutei.png', icon: defaultValue.internal.icon },
         { id: 11, name: 'フルル', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/fululu-min.png', srcparent: 'img/kobachi/fululu.png', icon: defaultValue.internal.icon },
         { id: 12, name: '第二弾', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/sysimg/dice-two-solid.svg', srcparent: '', icon: '' },
-        { id: 13, name: 'イッカク', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/-min.png', srcparent: 'img/kobachi/.png', icon: '' },
-        { id: 14, name: 'シナウスシロイルカ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/-min.png', srcparent: 'img/kobachi/.png', icon: '' },
-        { id: 15, name: 'バンドウイルカ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/-min.png', srcparent: 'img/kobachi/.png', icon: '' },
-        { id: 16, name: 'マイルカ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/mairuka-min.png', srcparent: 'img/kobachi/mairuka.png', icon: '' },
-        { id: 17, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/shironagasukujira-min.png', srcparent: 'img/kobachi/shironagasukujira.png', icon: defaultValue.internal.icon }
+        { id: 13, name: 'イッカク', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/ikkaku-min.png', srcparent: 'img/kobachi/ikkaku.png', icon: defaultValue.internal.icon },
+        { id: 14, name: 'シナウスイロイルカ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/shinausu-min.png', srcparent: 'img/kobachi/shinausu.png', icon: defaultValue.internal.icon },
+        { id: 15, name: 'バンドウイルカ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/bandou-min.png', srcparent: 'img/kobachi/bandou.png', icon: defaultValue.internal.icon },
+        { id: 16, name: 'マイルカ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/mairuka-min.png', srcparent: 'img/kobachi/mairuka.png', icon: defaultValue.internal.icon },
+        { id: 17, name: 'シロナガスクジラ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/shironagasukujira-min.png', srcparent: 'img/kobachi/shironagasukujira.png', icon: defaultValue.internal.icon },
+        { id: 12, name: '第三弾', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/sysimg/dice-three-solid.svg', srcparent: '', icon: '' },
+        { id: 13, name: 'アルパカ・スリ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/-min.png', srcparent: 'img/kobachi/.png', icon: '' },
+        { id: 14, name: 'スナネコ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/-min.png', srcparent: 'img/kobachi/.png', icon: '' },
+        { id: 15, name: 'アメリカビーバー', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/americabeaver-min.png', srcparent: 'img/kobachi/americabeaver.png', icon: defaultValue.internal.icon },
+        { id: 16, name: 'オグロプレーリードッグ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/-min.png', srcparent: '', icon: '' },
+        { id: 17, name: 'ヒグマ', rel: defaultValue.internal.rel, alt: 'kobachi', title: defaultValue.internal.title, src: 'img/kobachi/higuma-min.png', srcparent: 'img/kobachi/higuma.png', icon: defaultValue.internal.icon }
       ],
       shatekiGroceryList: [
         { id: 0, name: '吉崎観音コンセプトデザイン柄', rel: '', alt: '', title: '', src: 'img/sysimg/map-marked-alt-solid.svg', srcparent: '', icon: '' },
@@ -173,7 +188,7 @@ var gardengoods = new Vue({
         { id: 54, name: 'ニホンカワウソ', rel: '', alt: '', title: '', src: '', srcparent: '', icon: '' },
         { id: 55, name: 'ボス', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/boss-min.png', srcparent: 'img/shateki/boss.png', icon: defaultValue.internal.icon },
         { id: 55, name: '総外れ第一弾 [終了]', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/garden_seal-min.png', srcparent: 'img/shateki/garden_seal.png', icon: defaultValue.internal.icon },
-        { id: 56, name: '総外れ第二弾 [現在配布中]', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/garden_seal_2-min.png', srcparent: 'img/shateki/garden_seal_2.png', icon: defaultValue.internal.icon }
+        { id: 56, name: '総外れ第二弾 [終了]', rel: defaultValue.internal.rel, alt: 'shateki', title: defaultValue.internal.title, src: 'img/shateki/garden_seal_2-min.png', srcparent: 'img/shateki/garden_seal_2.png', icon: defaultValue.internal.icon }
       ],
       jugGroceryList: [
         { id: 0, name: 'ボス', rel: defaultValue.internal.rel, alt: 'jug', title: defaultValue.internal.title, src: 'img/jug/boss-min.png', srcparent: 'img/jug/boss.png', icon: defaultValue.internal.icon },
