@@ -19,6 +19,7 @@ var spthx = new Vue({
       { id: 5, title: '画像提供', url: 'https://twitter.com/Kdatlyno', text: 'クダトリノ@Kdatlyno' },
       { id: 6, title: '画像提供', url: 'https://twitter.com/HiKampfer', text: 'KAMPFER@HiKampfer' },
       { id: 7, title: '画像提供', url: 'https://twitter.com/PUYO_RW01', text: 'PUYO@PUYO_RW01' },
+      { id: 10, title: '素材提供', url: 'https://twitter.com/ef63_11', text: 'zin@ef63_11' },
       { id: 8, title: '404画像提供', url: 'https://twitter.com/runeOmega', text: 'るね~Type Omega~@runeOmega' },
       { id: 9, title: '404画像リンク', url: 'https://twitter.com/runeOmega/status/1021330435882676224', text: '404画像へ飛ぶ' }
     ]
