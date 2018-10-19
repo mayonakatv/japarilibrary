@@ -43,7 +43,8 @@ var officialnews = new Vue({
         { id: 22, href: 'https://twitter.com/kemono_matsuri/status/1047767517056229376', seen: true, remark: defaultValue.remark, text: 'みなさーん 今日からなんとコースター第3弾の配布が開始になったよー！ (第2弾とランダムにて配布だよ)みんなオリジナルドリンクを買うのだー！ そして射的・じゃぱまん投げの外れの景品に第1弾のコースターがおまけで付いたよ！これもランダムだけど頑張ってコンプリートするのだー！！ 17:36 - 2018年10月4日' },
         { id: 23, href: 'https://twitter.com/kemono_matsuri/status/1050247670881636353', seen: true, remark: '<a href="http://r-t.jp/kf-garden2" rel="external">楽天チケット</a>', text: '【皆さんにお知らせ】 けもフレがーでん最終日は事前チケット制です。 10月12日(金)の18時から販売開始です！ 最後のがーでんをみなさんで盛り上がりましょう(^^)/  #けもフレがーでん 13:52 - 2018年10月11日' },
         { id: 24, href: 'https://twitter.com/kemono_matsuri/status/1050285078838824960', seen: true, remark: defaultValue.remark, text: 'みんなー！！ 14日(日)はネコ科の日を開催するのだー！パチパチ なんとこの日はネコ科のコスプレをしてくれたフレンズみんなにプレゼントがあるよ！ そして更に1部・2部共にとある時間に☆★☆大会をするよー みんなが来るの楽しみに待ってるのだー！ 16:20 - 2018年10月11日' },
-        { id: 25, href: 'https://twitter.com/kemono_matsuri/status/1050913685047103489', seen: true, remark: defaultValue.remark, text: 'みんなー 今日からホットメニュー販売開始だよ！ 屋台からは焼きおにぎり・味噌汁セットを！！ オリジナルドリンクからはコーンスープ・オニオンスープ・ココア・熱燗なのだ！ そしてなんと全部にコースターが付くよ！ みんなであたたまるのだー！ 9:58 - 2018年10月13日' }
+        { id: 25, href: 'https://twitter.com/kemono_matsuri/status/1050913685047103489', seen: true, remark: defaultValue.remark, text: 'みんなー 今日からホットメニュー販売開始だよ！ 屋台からは焼きおにぎり・味噌汁セットを！！ オリジナルドリンクからはコーンスープ・オニオンスープ・ココア・熱燗なのだ！ そしてなんと全部にコースターが付くよ！ みんなであたたまるのだー！ 9:58 - 2018年10月13日' },
+        { id: 26, href: 'https://twitter.com/kemono_matsuri/status/1052533052855840768', seen: true, remark: defaultValue.remark, text: 'みなさーん！ 20日(土)にPPPの日を開催するよー！ PPPのコスプレをしてくれたフレンズにはプレゼントを用意してるのだー！ そして屋台から新メニューも出るよ！ 更に更にがーでんクイズを用意してるよー！答えがわかったフレンズにはプレゼント用意してるのだー！ みんなが来るの楽しみ待ってるのだ！ 21: 13 - 2018年10月17日' }
       ]
     }
   }
