@@ -64,11 +64,12 @@ var gardengoods = new Vue({
         { id: 28, name: '新着商品', rel: '', alt: 'food', title: 'new arrival', src: 'img/sysimg/plane-arrival-solid.svg', srcparent: 'img/sysimg/plane-arrival-solid.svg', icon: '' },
         { id: 35, name: 'プリン [500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenPudding-min.png', srcparent: 'img/foods/gardenPudding.png', icon: defaultValue.internal.icon },
         { id: 34, name: 'フードメニュー盛り合わせ [3,000円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenAssorted-min.png', srcparent: 'img/foods/gardenAssorted.png', icon: defaultValue.internal.icon },
-        { id: 29, name: '焼きおにぎり・味噌汁セット [1,000円]', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DpWqU5VV4AA_uKN.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1050933370408947712', icon: defaultValue.external.icon },
+        { id: 29, name: '焼きおにぎり・味噌汁セット [1,000円](売切れ?)', rel: defaultValue.external.rel, alt: 'food', src: 'https://pbs.twimg.com/media/DpWqU5VV4AA_uKN.jpg', srcparent: 'https://twitter.com/mamedaikichi/status/1050933370408947712', icon: defaultValue.external.icon },
         { id: 30, name: 'オニオンスープ [500円]', rel: defaultValue.external.rel, alt: 'food', src: '', srcparent: '', icon: defaultValue.external.icon },
         { id: 31, name: 'コーンスープ [500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon },
         { id: 32, name: 'ホットココア [500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon },
-        { id: 33, name: '熱燗（日本酒/紙コップで提供）[500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon }
+        { id: 33, name: '熱燗（日本酒/紙コップで提供）[500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon },
+        { id: 33, name: 'シチュー [1,000円](売切れ?)', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenStew-min.png', srcparent: 'img/foods/gardenStew.png', icon: defaultValue.internal.icon }
       ],
       coasterGroceryList: [
         { id: 0, name: '第一弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-one-solid.svg', srcparent: '', icon: '' },
