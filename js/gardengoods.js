@@ -69,7 +69,8 @@ var gardengoods = new Vue({
         { id: 31, name: 'コーンスープ [500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon },
         { id: 32, name: 'ホットココア [500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon },
         { id: 33, name: '熱燗（日本酒/紙コップで提供）[500円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/-min.png', srcparent: 'img/foods/.png', icon: defaultValue.internal.icon },
-        { id: 33, name: 'シチュー [1,000円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenStew-min.png', srcparent: 'img/foods/gardenStew.png', icon: defaultValue.internal.icon }
+        { id: 33, name: 'シチュー [1,000円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenStew-min.png', srcparent: 'img/foods/gardenStew.png', icon: defaultValue.internal.icon },
+        { id: 33, name: 'おでん [1,000円]', rel: defaultValue.internal.rel, alt: 'food', src: 'img/foods/gardenOden-min.png', srcparent: 'img/foods/gardenOden.png', icon: defaultValue.internal.icon }
       ],
       coasterGroceryList: [
         { id: 0, name: '第一弾', rel: '', alt: '', title: '', src: 'img/sysimg/dice-one-solid.svg', srcparent: '', icon: '' },
