@@ -333,6 +333,10 @@ margin: .4em 0;
   float: left;
 }
 
+#gardengoods ul ul li {
+  margin-left: 1em;
+}
+
 /* firstEntry sect-myMessage */
 #sect-myMessage p,
 #sect-editorInChief p {
