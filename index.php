@@ -5,7 +5,9 @@
     <carousel-item v-for="item in carouselGroceryList" v-bind:todo="item" v-bind:target="carousel"></carousel-item>
   </div> -->
   <div class="cyclotron cycle hide-on-med-and-down" style="background:url(img/panorama/panorama0910_<?php echo mt_rand(1,2); ?>-min.jpg);height:512px"></div>
-
+  <section class="sect-period card-panel red lighten-5">
+    <h1 class=" red-text text-darken-5 bold center-align">けものフレンズがーでん2は終了いたしました<br>われわれはおかわりをまっているのですよ</h1>
+  </section>
   <?php
     require 'contents/sect-about.html';
     require 'contents/sect-officialNews.html';
@@ -17,7 +19,6 @@
       require 'contents/sect-map.html';
       require 'contents/sect-faq.html'
     ?>
-
     <section id="sect-first">
       <h2>初めての方へ / 楽しみ方のご提案</h2>
       <p>そもそも「けものフレンズ」って何？と言う方は
